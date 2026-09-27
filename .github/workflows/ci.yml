@@ -1,0 +1,19 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - name: Registry is valid
+        run: python3 skills/access-atlas/scripts/jurisdictions.py check
+      - name: Unit tests
+        run: python3 -m unittest discover -s skills/access-atlas/scripts -p "test_*.py" -v
+      - name: Scanner parses
+        run: node --check skills/access-atlas/scripts/scan.mjs
+      - name: Shell scripts
+        run: bash -n install.sh && bash -n skills/access-atlas/scripts/ensure-deps.sh

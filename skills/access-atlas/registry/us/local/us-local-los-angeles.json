@@ -1,0 +1,34 @@
+{
+  "id": "us-local-los-angeles",
+  "name": "City of Los Angeles - Department on Disability accessibility statement",
+  "level": "local",
+  "country": "US",
+  "parent": "us-ada-title-ii",
+  "standard": "WCAG 2.1 AA (per Department on Disability statement)",
+  "laws": [],
+  "policy_docs": [
+    {
+      "title": "LA Department on Disability - Accessibility Statement",
+      "url": "https://disability.lacity.gov/about/accessibility"
+    }
+  ],
+  "applies_to": "City of Los Angeles web content (statement is for disability.lacity.gov; citywide scope unverified).",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "Title II date as extended."
+    }
+  ],
+  "exceptions": [],
+  "requires": [
+    "Content reviewed for ADA, Section 508 and WCAG 2.1 AA"
+  ],
+  "mobile": "not addressed.",
+  "procurement": "Not found.",
+  "enforcement": "Federal Title II; California Gov't Code 11135 and Unruh Act (not verified here).",
+  "office_url": "https://disability.lacity.gov/",
+  "as_of": "2026-09-27",
+  "confidence": "low",
+  "sources": [],
+  "notes": "The disability.lacity.gov page returned 403; the WCAG 2.1 AA statement is from a search-result snippet only. No citywide ITA digital accessibility policy was found. Verify before relying on it."
+}

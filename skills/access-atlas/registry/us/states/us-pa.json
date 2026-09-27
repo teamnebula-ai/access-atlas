@@ -1,0 +1,59 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-pa",
+  "name": "Pennsylvania",
+  "level": "state",
+  "standard": "WCAG 2.1 A and AA minimum plus Revised Section 508 (ITP-ACC001 Digital Accessibility Policy, effective 2025-11-12)",
+  "laws": [
+    {
+      "cite": "Executive Order 2016-06, Enterprise Information Technology Governance",
+      "summary": "Gives the Office of Administration authority to issue IT policies, including the accessibility ITP.",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/digital%20accessibility%20policy.pdf"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "ITP-ACC001 Digital Accessibility Policy (effective 2025-11-12)",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/digital%20accessibility%20policy.pdf"
+    }
+  ],
+  "applies_to": "Offices, departments, boards, commissions and councils under the Governor, and any entity connecting to the Commonwealth Network. Local governments are covered only by the ADA Title II floor.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II floor: state government and local entities with population 50,000+ must conform to WCAG 2.1 AA (extended from 2026-04-24 by the 2026 DOJ IFR)."
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II floor: local entities under 50,000 population and special district governments (extended from 2027-04-26)."
+    },
+    {
+      "date": "2026-04-24",
+      "what": "ITP-ACC001 exempts Commonwealth social media posts made before this date."
+    }
+  ],
+  "requires": [
+    "Agencies fund accessibility testing and remediation",
+    "OA Office of Accessibility tracks compliance and consolidates reporting to executives",
+    "Delivery Centers test with Commonwealth-approved tools and build remediation plans and roadmaps",
+    "Suppliers submit an ACR on the current VPAT version with bids and contracts",
+    "Archived content provided in accessible format on request"
+  ],
+  "mobile": "implied — covers all digital content and services and applications; mobile apps not named in the extracted text.",
+  "procurement": "Contracts must require WCAG 2.1 A/AA; suppliers submit an ACR on the latest VPAT and must explain any older template.",
+  "enforcement": "Internal governance via OA Office of Accessibility (RA-OAAccessibility@pa.gov); no public complaint procedure in the ITP; ADA Title II complaints to US DOJ.",
+  "office_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/digital%20accessibility%20policy.pdf",
+  "confidence": "high",
+  "sources": [
+    "https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/digital%20accessibility%20policy.pdf",
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "Replaces the 2025-07-29 version. The linked Digital Accessibility Standard was not opened."
+}

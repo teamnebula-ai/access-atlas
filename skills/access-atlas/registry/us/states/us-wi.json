@@ -1,0 +1,46 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-wi",
+  "name": "Wisconsin",
+  "level": "state",
+  "standard": "ADA Title II floor (WCAG 2.1 AA); the Wisconsin.gov policy states Section 508-based requirements. No enacted state statute or DOA/DET WCAG standard found.",
+  "laws": [
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Wisconsin.gov Policies — Accessibility",
+      "url": "https://www.wisconsin.gov/Pages/Policies.aspx"
+    }
+  ],
+  "applies_to": "State of Wisconsin websites and web applications (portal policy). Local governments via the ADA Title II floor.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II floor: state government and local entities with population 50,000+ must conform to WCAG 2.1 AA (extended from 2026-04-24 by the 2026 DOJ IFR)."
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II floor: local entities under 50,000 population and special district governments (extended from 2027-04-26)."
+    }
+  ],
+  "requires": [
+    "Section 508-based site requirements (text equivalents, accessible forms, scalable fonts, keyboard operation)"
+  ],
+  "mobile": "not addressed — the state policy is web-only.",
+  "procurement": "No statewide accessibility procurement clause found.",
+  "enforcement": "Wisconsin.gov customer support; ADA Title II complaints to US DOJ.",
+  "office_url": "https://www.wisconsin.gov/Pages/Policies.aspx",
+  "confidence": "low",
+  "sources": [
+    "https://www.wisconsin.gov/Pages/Policies.aspx",
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "2023-24 bills SB 831 / AB 904 (DOA web rules based on WCAG 2.2) are reported by secondary sources; no evidence they were enacted. A DET internal standard, if any, was not found. The UW System has its own policy, out of scope here."
+}

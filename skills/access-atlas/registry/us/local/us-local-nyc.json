@@ -1,0 +1,51 @@
+{
+  "id": "us-local-nyc",
+  "name": "New York City - Local Law 26 of 2016 and NYC Digital Accessibility",
+  "level": "local",
+  "country": "US",
+  "parent": "us-ada-title-ii",
+  "standard": "WCAG 2.2 AA (adopted December 2025)",
+  "laws": [
+    {
+      "cite": "NYC Local Law 26 of 2016",
+      "summary": "City agencies must make a reasonable effort to make their websites accessible, and the City must report on progress.",
+      "url": "https://legistar.council.nyc.gov/View.ashx?GUID=132FD6DD-7F9C-402A-9107-A1DD9D6E0CBD&ID=4420180&M=F"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "MOPD - Digital Accessibility Resources",
+      "url": "https://www.nyc.gov/site/mopd/initiatives/digital-accessibility.page"
+    },
+    {
+      "title": "NYC.gov Website Process - Creating Accessible Content",
+      "url": "https://www.nyc.gov/site/process/content/creating-accessible-content.page"
+    }
+  ],
+  "applies_to": "NYC.gov and all City agency websites and digital content.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II date for NYC (population 50,000+)."
+    }
+  ],
+  "exceptions": [
+    "The City adopted the five exceptions from DOJ's Title II rule."
+  ],
+  "requires": [
+    "WCAG 2.2 Level AA for agency websites and content",
+    "Website accessibility statement and a way to report barriers (Website Accessibility Feedback Form)",
+    "Digital Accessibility Coordinator at MOPD trains agencies and writes the Local Law 26 Digital Accessibility Reports"
+  ],
+  "mobile": "not addressed on the pages reviewed - Title II's mobile app requirement applies regardless.",
+  "procurement": "Not stated on the pages reviewed.",
+  "enforcement": "Internal (MOPD coordinator, public reports); federal Title II enforcement and private suits.",
+  "office_url": "https://www.nyc.gov/site/mopd/initiatives/digital-accessibility.page",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.nyc.gov/site/mopd/initiatives/digital-accessibility.page",
+    "https://www.nyc.gov/site/process/content/creating-accessible-content.page"
+  ],
+  "notes": "A vendor article mentions an NYC 'Local Law 12' on digital accessibility; not verified against Legistar and not included. The Local Law 26 legistar PDF URL is from search results (the 2016 local laws compilation), not opened. Agency 5-year accessibility plans come from search summaries (likely Local Law 12 of 2023 accessibility plans), unverified."
+}

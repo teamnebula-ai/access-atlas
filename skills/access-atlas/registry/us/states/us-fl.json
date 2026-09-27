@@ -1,0 +1,51 @@
+{
+  "id": "us-fl",
+  "name": "Florida",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "Section 508 (36 C.F.R. Part 1194), which today incorporates WCAG 2.0 AA",
+  "laws": [
+    {
+      "cite": "Fla. Stat. § 282.603",
+      "summary": "State agencies must develop, buy, maintain and use IT that meets Section 508, or give alternative access if that is an undue burden.",
+      "url": "https://www.flsenate.gov/Laws/Statutes/2025/282.603"
+    },
+    {
+      "cite": "28 C.F.R. Part 35, Subpart H (ADA Title II web and mobile rule, 2024; dates extended by DOJ interim final rule 2026-04-20)",
+      "summary": "State and local governments must make web content and mobile apps conform to WCAG 2.1 AA.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [],
+  "applies_to": "State agencies, for electronic and information technology acquired on or after 2006-07-01.",
+  "deadlines": [
+    {
+      "date": "2006-07-01",
+      "what": "Section 508 conformance applies to EIT acquired on or after this date"
+    },
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II floor: public entities with population 50,000+ must meet WCAG 2.1 AA (extended from 2026-04-24)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Federal ADA Title II floor: entities under 50,000 and special districts (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Meet Section 508 for EIT acquired since 2006-07-01",
+    "Give an alternative method of access when compliance is an undue burden"
+  ],
+  "mobile": "not addressed — the statute does not mention mobile apps; the federal Title II rule covers them.",
+  "procurement": "Procured EIT must conform to Section 508; no VPAT requirement is stated in the statute.",
+  "enforcement": "None stated in the statute.",
+  "office_url": null,
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.flsenate.gov/Laws/Statutes/2025/282.603",
+    "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+  ],
+  "notes": "The statute text was verified. No statewide Florida Digital Service accessibility policy or office page was found. Some vendor blogs say § 282.603 requires WCAG 2.1 AA; the text does not say that. Local governments are not covered by the statute. Federal floor: ADA Title II rule (WCAG 2.1 AA, web + mobile apps) applies to all state and local government regardless of state law; DOJ's 2026-04-20 interim final rule moved compliance dates to 2027-04-26 / 2028-04-26."
+}

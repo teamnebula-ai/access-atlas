@@ -1,0 +1,59 @@
+{
+  "id": "us-ct",
+  "name": "Connecticut",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "WCAG 2.1 AA",
+  "laws": [
+    {
+      "cite": "C.G.S. §§ 4-5, 4-8, 4-65a, 4-66, 4d-1(3), 4d-8a",
+      "summary": "Give OPM power to set IT policy for state agencies, including this accessibility policy.",
+      "url": "https://portal.ct.gov/-/media/sitecore-center/accessibility/it-accessibility-policy-final-for-release-07142025.pdf"
+    },
+    {
+      "cite": "28 C.F.R. Part 35, Subpart H (ADA Title II web and mobile rule, 2024; dates extended by DOJ interim final rule 2026-04-20)",
+      "summary": "State and local governments must make web content and mobile apps conform to WCAG 2.1 AA.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "State of Connecticut Accessibility & Inclusivity Policy for Websites and Digital Assets v5.0 (OPM, 2025-07-14)",
+      "url": "https://portal.ct.gov/-/media/sitecore-center/accessibility/it-accessibility-policy-final-for-release-07142025.pdf"
+    }
+  ],
+  "applies_to": "State agencies as defined in C.G.S. § 4d-1(3); the legislature and judiciary are encouraged but not required to adopt it.",
+  "deadlines": [
+    {
+      "date": "2025-07-14",
+      "what": "Policy v5.0 effective; all new digital content must meet WCAG 2.1 AA"
+    },
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II floor: public entities with population 50,000+ must meet WCAG 2.1 AA (extended from 2026-04-24)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Federal ADA Title II floor: entities under 50,000 and special districts (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Designate an Accessibility Designee as single point of contact",
+    "Track progress and review periodically",
+    "Build all new content to WCAG 2.1 AA",
+    "Prioritize remediation of existing content by user impact",
+    "DAS provides accessibility training"
+  ],
+  "mobile": "explicit — scope lists mobile applications.",
+  "procurement": "Accessibility requirements must be addressed in contracts with vendors who create digital content.",
+  "enforcement": "Complaints go to the agency's Accessibility Designee (or Customer Success Manager) or the Statewide Accessibility Feedback form run by DAS BITS.",
+  "office_url": "https://portal.ct.gov/opm/fin-general/policies/universal-website-accessibility-policy",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://portal.ct.gov/-/media/sitecore-center/accessibility/it-accessibility-policy-final-for-release-07142025.pdf",
+    "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+  ],
+  "notes": "v5.0 replaced the Universal Website Accessibility Policy v4.1 (2019). No statutory private remedy specific to digital accessibility was found. office_url comes from search results and was not opened. Federal floor: ADA Title II rule (WCAG 2.1 AA, web + mobile apps) applies to all state and local government regardless of state law; DOJ's 2026-04-20 interim final rule moved compliance dates to 2027-04-26 / 2028-04-26."
+}

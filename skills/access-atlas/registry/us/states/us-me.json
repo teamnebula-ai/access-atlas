@@ -1,0 +1,60 @@
+{
+  "id": "us-me",
+  "name": "Maine",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "WCAG 2.1 AA + Revised Section 508",
+  "laws": [
+    {
+      "cite": "5 M.R.S. §1973(1)(B)",
+      "summary": "Authorizes the state CIO to set IT policies and standards, including ADA standards, which is the basis for the OIT accessibility policy.",
+      "url": "https://legislature.maine.gov/statutes/5/title5sec1973.html"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web & mobile rule, 2024; dates extended by IFR 2026-07663)",
+      "summary": "Federal floor: state and local government web content and mobile apps must conform to WCAG 2.1 AA; the April 2026 IFR moved compliance to 2027-04-26 (pop. 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "OIT Digital Accessibility and Usability Policy (v3.1, revised 2026-05-29)",
+      "url": "https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DigitalAccessibilityPolicy.pdf"
+    },
+    {
+      "title": "State of Maine Accessibility (policy and laws)",
+      "url": "https://www.maine.gov/accessibility/policy-and-laws"
+    }
+  ],
+  "applies_to": "Digital information and services under the CIO's purview (executive branch agencies), public-facing and internal; archived and unmodified legacy content excepted.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II rule: state government and local governments with population 50,000+ must conform web content and mobile apps to WCAG 2.1 AA (extended from 2026-04-24 by DOJ IFR effective 2026-04-20)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II rule: local governments under 50,000 and special district governments (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Conformance to Revised Section 508 and WCAG 2.1 A/AA",
+    "Agency mechanism for users to report accessibility issues",
+    "Equally Effective Alternative Access Plans (EEAAP) for content that is not accessible, approved by ADA/EEO coordinators",
+    "Role-based accessibility training",
+    "OIT Accessibility Team testing and application deployment certification",
+    "Waivers via OIT Waiver Policy"
+  ],
+  "mobile": "explicit — policy's software definition includes mobile client applications.",
+  "procurement": "Vendors must submit an ACR on the newest VPAT (WCAG edition), filled out completely; OIT reviews ACRs and test results; procurement instruments with IT components must require compliance by default.",
+  "enforcement": "CIO enforces the policy; waivers do not relieve federal/state obligations. Public complaints via agency reporting mechanism or Maine Human Rights Act / ADA.",
+  "office_url": "https://www.maine.gov/oit/accessibility",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DigitalAccessibilityPolicy.pdf",
+    "https://www.federalregister.gov/api/v1/documents/2026-07663.json?fields[]=title&fields[]=abstract&fields[]=effective_on&fields[]=dates&fields[]=html_url"
+  ],
+  "notes": "Policy first issued 2019-12-20; current v3.1 dated 2026-05-29. Statute URL taken from the policy's own footnote, not opened separately. No state-set compliance deadline found beyond ADA Title II."
+}

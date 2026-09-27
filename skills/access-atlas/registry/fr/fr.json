@@ -1,0 +1,74 @@
+{
+  "id": "fr",
+  "name": "France",
+  "level": "national",
+  "country": "FR",
+  "parent": "eu-wad",
+  "standard": "RGAA 4.1.2 (French transposition of EN 301 549 / WCAG 2.1 AA); RGAA 5 in drafting, expected end 2026",
+  "laws": [
+    {
+      "cite": "Loi n° 2005-102 du 11 février 2005, art. 47 and 47-1",
+      "summary": "Public sector bodies and large companies must make online public communication services accessible, with Arcom as the regulator.",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000809647"
+    },
+    {
+      "cite": "Décret n° 2019-768 du 24 juillet 2019",
+      "summary": "Sets RGAA, the accessibility statement, the multi-year plan and the mandatory homepage mention.",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038811937"
+    },
+    {
+      "cite": "Ordonnance n° 2023-859 du 6 septembre 2023",
+      "summary": "Created art. 47-1 giving Arcom control and sanction powers, and transposed the EAA.",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048052418"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "RGAA — accessibilite.numerique.gouv.fr",
+      "url": "https://accessibilite.numerique.gouv.fr/"
+    },
+    {
+      "title": "Obligations",
+      "url": "https://accessibilite.numerique.gouv.fr/obligations/"
+    },
+    {
+      "title": "Déclaration d'accessibilité",
+      "url": "https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/"
+    }
+  ],
+  "applies_to": "Public legal entities; private bodies with a delegated public service mission; private companies with over EUR 250m average annual French turnover over 3 years (for large companies Arcom only controls the disclosure obligations).",
+  "deadlines": [
+    {
+      "date": "2019-07-24",
+      "what": "Décret 2019-768 adopted (RGAA obligations)"
+    },
+    {
+      "date": "2023-09-06",
+      "what": "Ordonnance 2023-859 gives Arcom enforcement powers"
+    }
+  ],
+  "exceptions": [
+    "WAD content exceptions",
+    "Disproportionate burden (dérogation pour charge disproportionnée), which must be listed in the statement"
+  ],
+  "requires": [
+    "Accessibility statement (déclaration d'accessibilité) stating conformity: total, partial (at least 50% of criteria) or none",
+    "Homepage mention 'Accessibilité : totalement / partiellement / non conforme'",
+    "Multi-year accessibility plan (schéma pluriannuel) plus annual action plans",
+    "Accessible feedback mechanism (email or form) and a notice of the right to contact the Défenseur des droits",
+    "Update the statement on substantial change, 3 years after publication, or 18 months after a new RGAA methodology"
+  ],
+  "mobile": "explicit — the statement rules cover mobile apps (published on the website or at download); RGAA applies to apps.",
+  "procurement": "Not captured in sources opened; RGAA is used as the contractual reference in French public tenders.",
+  "enforcement": "Arcom (art. 47-1): sworn agents record the breach, then a public formal notice to comply. Fines up to EUR 50,000 for accessibility failures and up to EUR 25,000 for statement, plan or mention failures, scaled by severity and duration.",
+  "office_url": "https://www.arcom.fr/nous-connaitre/nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/les-droits-des-personnes-handicapees/accessibilite-des-sites-et-des-services-numeriques",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://accessibilite.numerique.gouv.fr/",
+    "https://accessibilite.numerique.gouv.fr/obligations/",
+    "https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/",
+    "https://www.arcom.fr/nous-connaitre/nos-missions/garantir-le-pluralisme-et-la-cohesion-sociale/les-droits-des-personnes-handicapees/accessibilite-des-sites-et-des-services-numeriques"
+  ],
+  "notes": "The brief said 'RGAA 4.1'; the current version is 4.1.2 (2023-04-18). The Légifrance URLs for the loi, décret and ordonnance are standard JORF identifiers but were not opened here, so verify them. France extended the duty beyond WAD to large companies."
+}

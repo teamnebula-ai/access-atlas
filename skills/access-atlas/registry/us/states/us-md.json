@@ -1,0 +1,70 @@
+{
+  "id": "us-md",
+  "name": "Maryland",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "WCAG 2.1 AA + Maryland IT Nonvisual Access standards (COMAR 14.33.02)",
+  "laws": [
+    {
+      "cite": "Md. Code, State Finance & Procurement §3.5-301 et seq. (incl. §3.5-303(c), §3.5-311 Nonvisual Access Clause)",
+      "summary": "Requires IT procured or provided by executive branch units to be nonvisually accessible and every non-exempt IT solicitation to carry the Nonvisual Access Clause.",
+      "url": "https://doit.maryland.gov/policies/Accessibility/Pages/Nonvisual-Access-Regulatory-Standards.aspx"
+    },
+    {
+      "cite": "COMAR 14.33.02.01-.11",
+      "summary": "Maryland IT Nonvisual Access regulations, effective 2005-03-01, largely based on Section 508 plus Maryland-specific provisions.",
+      "url": "https://doit.maryland.gov/policies/Accessibility/Pages/Nonvisual-Access-Regulatory-Standards.aspx"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web & mobile rule, 2024; dates extended by IFR 2026-07663)",
+      "summary": "Federal floor: state and local government web content and mobile apps must conform to WCAG 2.1 AA; the April 2026 IFR moved compliance to 2027-04-26 (pop. 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "State of Maryland Digital Accessibility Policy (issued 2024-01-08, revised 2025-12-02)",
+      "url": "https://doit.maryland.gov/policies/Accessibility/Documents/Digital-Accessibility-Policy-Final.pdf"
+    },
+    {
+      "title": "DoIT Nonvisual Access Regulatory Standards",
+      "url": "https://doit.maryland.gov/policies/Accessibility/Pages/Nonvisual-Access-Regulatory-Standards.aspx"
+    }
+  ],
+  "applies_to": "All executive branch departments and agencies (and public higher-ed institutions for NVA), internal and external IT solutions developed, provided or procured.",
+  "deadlines": [
+    {
+      "date": "2026-04-24",
+      "what": "Maryland policy's stated ADA Title II compliance date (written before the DOJ extension)"
+    },
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II rule: state government and local governments with population 50,000+ must conform web content and mobile apps to WCAG 2.1 AA (extended from 2026-04-24 by DOJ IFR effective 2026-04-20)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II rule: local governments under 50,000 and special district governments (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Accessibility Officer in each agency",
+    "Verify accessibility before deployment; validation testing by DoIT or MDOD after remediation",
+    "Vendor manual + automated testing incl. screen reader and iOS/Android mobile testing",
+    "Content vetting so new documents are 'born accessible' (WCAG 2.1 AA)",
+    "Staff training within 30 days of hire / 90 days of policy",
+    "Report concerns via DoIT ticketing (doit.intake@maryland.gov)"
+  ],
+  "mobile": "explicit — policy requires vendor mobile testing on iOS and Android and DoIT consults on mobile applications.",
+  "procurement": "Nonvisual Access Clause (SF&P §3.5-311) required in non-exempt IT solicitations; ACRs/VPATs required in solicitations and reviewed by MDOD/DoIT; DoIT sits on the Software Review Board.",
+  "enforcement": "DoIT Office of Accessibility enforces COMAR 14.33.02; MDOD handles constituent concerns and works with agencies on remediation.",
+  "office_url": "https://doit.maryland.gov/policies/Accessibility/Pages/default.aspx",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://doit.maryland.gov/policies/Accessibility/Documents/Digital-Accessibility-Policy-Final.pdf",
+    "https://doit.maryland.gov/policies/Accessibility/Pages/Nonvisual-Access-Regulatory-Standards.aspx",
+    "https://www.federalregister.gov/api/v1/documents/2026-07663.json?fields[]=title&fields[]=abstract&fields[]=effective_on&fields[]=dates&fields[]=html_url"
+  ],
+  "notes": "SF&P section text not opened directly; cites are as stated on DoIT pages and in the policy. A search snippet claimed an April 26, 2027 state deadline; not verified in the policy (which says 2026-04-24). Education Article §7-910 (accessible digital materials for students) surfaced in search but was not reviewed."
+}

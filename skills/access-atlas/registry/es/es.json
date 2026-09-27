@@ -1,0 +1,56 @@
+{
+  "id": "es",
+  "name": "Spain",
+  "level": "national",
+  "country": "ES",
+  "parent": "eu-wad",
+  "standard": "UNE-EN 301549:2022 (Spanish version of EN 301 549 V3.2.1, WCAG 2.1 AA)",
+  "laws": [
+    {
+      "cite": "Real Decreto 1112/2018, de 7 de septiembre (BOE-A-2018-12699)",
+      "summary": "Transposes the WAD for Spanish public sector websites and mobile apps.",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Observatorio de Accesibilidad Web (PAe)",
+      "url": "https://administracion.gob.es/pag_Home/en/accesibilidad.html"
+    }
+  ],
+  "applies_to": "State, regional and local administrations, public institutions, the Justice Administration and other entities listed in art. 2.",
+  "deadlines": [
+    {
+      "date": "2018-09-20",
+      "what": "RD 1112/2018 in force"
+    },
+    {
+      "date": "2020-09-20",
+      "what": "Existing websites (2-year transition)"
+    },
+    {
+      "date": "2021-09-20",
+      "what": "Mobile apps (3-year transition per the decree; WAD deadline was 2021-06-23)"
+    }
+  ],
+  "exceptions": [
+    "WAD exceptions including third-party content not financed or controlled by the body",
+    "Disproportionate burden"
+  ],
+  "requires": [
+    "Presumption of conformity via harmonised norms (art. 6)",
+    "Complaint and communication channels (art. 10), with responses to formal complaints within 20 working days (art. 12)",
+    "Accessibility statement updated annually and linked from an 'Accesibilidad' footer on every page (art. 15)",
+    "Internal Unidad responsable de accesibilidad in each organisation (art. 16)"
+  ],
+  "mobile": "explicit — the title and scope cover mobile applications.",
+  "procurement": "Not captured in sources opened.",
+  "enforcement": "Unidades responsables handle complaints internally; the national Observatorio de Accesibilidad Web monitors and reports; reports go to the Commission.",
+  "office_url": "https://administracion.gob.es/pag_Home/en/accesibilidad.html",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2018-12699"
+  ],
+  "notes": "Transition dates are paraphrased from a model summary of the consolidated BOE text, so confirm them against the disposición transitoria. The UNE-EN 301549:2022 status comes from search summaries. The EAA is transposed separately by Ley 11/2023, which was not verified here."
+}

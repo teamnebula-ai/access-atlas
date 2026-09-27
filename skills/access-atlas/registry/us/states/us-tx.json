@@ -1,0 +1,78 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-tx",
+  "name": "Texas",
+  "level": "state",
+  "standard": "Texas Gov't Code Ch. 2054 Subch. M; 1 TAC Ch. 206 (websites) and Ch. 213 (EIR). In-force rule text references Section 508 (WCAG 2.0 AA via 36 CFR 1194 App. C §702.10); WCAG 2.1 AA applies through the DOJ Title II rule, and DIR's 2026 amendments cite it directly.",
+  "laws": [
+    {
+      "cite": "Tex. Gov't Code § 2054.451 et seq. (incl. §§ 2054.453, 2054.457, 2054.460, 2054.464)",
+      "summary": "Requires state agencies and institutions of higher education to provide accessible electronic and information resources and directs DIR to adopt accessibility rules.",
+      "url": "https://dir.texas.gov/digital-accessibility/accessibility-roles-and-responsibilities/requirements-exceptions-and"
+    },
+    {
+      "cite": "1 TAC § 206.50 (agencies) / § 206.70 (IHEs)",
+      "summary": "Sets accessibility requirements for state agency websites by reference to Section 508 standards and Chapter 213.",
+      "url": "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-206-50"
+    },
+    {
+      "cite": "1 TAC § 213.21 (agencies) / § 213.41 (IHEs)",
+      "summary": "Requires a published accessibility policy, an EIR Accessibility Coordinator, a compliance plan and goals, and DIR notice of coordinator vacancies within 30 days.",
+      "url": "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-213-21"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "DIR — Requirements, Exceptions, and Exemptions",
+      "url": "https://dir.texas.gov/digital-accessibility/accessibility-roles-and-responsibilities/requirements-exceptions-and"
+    },
+    {
+      "title": "Texas Register 2026-03-13 — proposed amendments to 1 TAC Ch. 213",
+      "url": "https://www.sos.texas.gov/texreg/archive/March132026/Proposed%20Rules/1.ADMINISTRATION.html"
+    }
+  ],
+  "applies_to": "State agencies and public institutions of higher education, covering websites, software, documents, multimedia, hardware and hosted services. Local governments are not covered by Ch. 206/213; the ADA Title II floor applies to them.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II floor: state government and local entities with population 50,000+ must conform to WCAG 2.1 AA (extended from 2026-04-24 by the 2026 DOJ IFR)."
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II floor: local entities under 50,000 population and special district governments (extended from 2027-04-26)."
+    },
+    {
+      "date": "2026-03-13",
+      "what": "DIR proposed Ch. 213 amendments: coordinator renamed Digital Accessibility Officer, DOJ Title II rule incorporated, ACR defined against WCAG. Final adoption not confirmed."
+    }
+  ],
+  "requires": [
+    "Published agency accessibility policy (§ 213.21)",
+    "Designated EIR Accessibility Coordinator (proposed: Digital Accessibility Officer); notify DIR within 30 days of vacancy",
+    "Agency-approved plan and measurable goals to bring EIR into compliance",
+    "Exceptions approved in writing by the agency head (Gov't Code § 2054.460); statewide exemptions only via DIR",
+    "Third-party or qualified-staff accessibility testing for EIR projects over $500,000",
+    "DIR accessibility survey and biennial compliance review"
+  ],
+  "mobile": "explicit — the proposed Ch. 213 applies the DOJ Title II rule to 'web content and mobile applications'; the current rule covers EIR generally.",
+  "procurement": "EIR procured or changed through contracts must comply with Ch. 206/213 unless excepted; ACR based on a VPAT is the documentation vehicle.",
+  "enforcement": "Agency-level accessibility policy and contact; DIR oversight via survey and compliance reviews; ADA Title II complaints to US DOJ.",
+  "office_url": "https://dir.texas.gov/digital-accessibility/accessibility-roles-and-responsibilities/requirements-exceptions-and",
+  "confidence": "medium",
+  "sources": [
+    "https://dir.texas.gov/digital-accessibility/accessibility-roles-and-responsibilities/requirements-exceptions-and",
+    "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-213-21",
+    "https://www.law.cornell.edu/regulations/texas/1-Tex-Admin-Code-SS-206-50",
+    "https://www.sos.texas.gov/texreg/archive/March132026/Proposed%20Rules/1.ADMINISTRATION.html",
+    "https://www.govtech.com/artificial-intelligence/texas-dir-board-enacts-ai-data-accessibility-rules",
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "Conflict: university pages say Ch. 213 revisions took effect in June 2026, but the adoption notice was not found. The last confirmed § 213.21 amendment is 2019-12-12 and § 206.50 is 2018-02-15. Before relying on the WCAG 2.1 wording or the 'Digital Accessibility Officer' title, confirm the adopted text in the Texas Register."
+}

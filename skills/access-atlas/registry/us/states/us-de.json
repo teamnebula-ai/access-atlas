@@ -1,0 +1,67 @@
+{
+  "id": "us-de",
+  "name": "Delaware",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "WCAG 2.1 A and AA",
+  "laws": [
+    {
+      "cite": "29 Del. C. § 9004C",
+      "summary": "Lets DTI create and enforce statewide technology policies and standards.",
+      "url": "https://webfiles.dti.delaware.gov/pdfs/pp/Digital%20Accessibility%20Policy.pdf"
+    },
+    {
+      "cite": "6 Del. C. § 4504",
+      "summary": "State public-accommodation nondiscrimination law cited by the DTI policy.",
+      "url": "https://webfiles.dti.delaware.gov/pdfs/pp/Digital%20Accessibility%20Policy.pdf"
+    },
+    {
+      "cite": "28 C.F.R. Part 35, Subpart H (ADA Title II web and mobile rule, 2024; dates extended by DOJ interim final rule 2026-04-20)",
+      "summary": "State and local governments must make web content and mobile apps conform to WCAG 2.1 AA.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "DTI Enterprise Policy AC-DIG-001 Digital Accessibility Policy (effective 2023-01-30)",
+      "url": "https://webfiles.dti.delaware.gov/pdfs/pp/Digital%20Accessibility%20Policy.pdf"
+    },
+    {
+      "title": "State of Delaware Digital Accessibility Policy page",
+      "url": "https://accessibility.dti.delaware.gov/state-of-delaware-digital-accessibility-policy/"
+    }
+  ],
+  "applies_to": "All State of Delaware public-facing digital assets, state employees and third-party vendors; the legislature, judiciary, school districts and local governments must follow it only as a condition of using state IT resources.",
+  "deadlines": [
+    {
+      "date": "2023-01-30",
+      "what": "AC-DIG-001 effective"
+    },
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II floor: public entities with population 50,000+ must meet WCAG 2.1 AA (extended from 2026-04-24)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Federal ADA Title II floor: entities under 50,000 and special districts (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Keep a public accessibility statement linked from the state homepage, with department-level information",
+    "Staff and vendor training via the Delaware Learning Center",
+    "A Digital Accessibility Senior Manager runs the program and reviews the policy yearly",
+    "Departments submit standards conformance reports every year, including vendor components"
+  ],
+  "mobile": "explicit — the policy commits to WCAG 2.1 A/AA for websites and mobile applications.",
+  "procurement": "Third-party vendors must comply; annual conformance reports include vendor-built components.",
+  "enforcement": "Handled administratively through DTI's Digital Accessibility Senior Manager; no statutory remedy found.",
+  "office_url": "https://accessibility.dti.delaware.gov/",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://webfiles.dti.delaware.gov/pdfs/pp/Digital%20Accessibility%20Policy.pdf",
+    "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+  ],
+  "notes": "Only pages 1–4 of the six-page policy were read. The Digital Accessibility & Equity Master Plan was mentioned in search results but not opened. Federal floor: ADA Title II rule (WCAG 2.1 AA, web + mobile apps) applies to all state and local government regardless of state law; DOJ's 2026-04-20 interim final rule moved compliance dates to 2027-04-26 / 2028-04-26."
+}

@@ -1,0 +1,64 @@
+{
+  "id": "us-ne",
+  "name": "Nebraska",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "Revised Section 508 (as modified) + 28 CFR 35 Subpart H (WCAG 2.1 AA) for web and mobile",
+  "laws": [
+    {
+      "cite": "Neb. Rev. Stat. §73-205",
+      "summary": "Requires a technology access clause, developed by the Commission for the Blind, NITC and the CIO, in every state agency contract for automated information systems, requiring equivalent visual and nonvisual access.",
+      "url": "https://nebraskalegislature.gov/laws/statutes.php?statute=73-205"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web & mobile rule, 2024; dates extended by IFR 2026-07663)",
+      "summary": "Federal floor: state and local government web content and mobile apps must conform to WCAG 2.1 AA; the April 2026 IFR moved compliance to 2027-04-26 (pop. 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "NITC 2-101 Accessibility Policy (amended 2025-07-11)",
+      "url": "https://nitc.nebraska.gov/docs/2-101.pdf"
+    },
+    {
+      "title": "NITC 2-201 (superseded; technology access clause moved to DAS)",
+      "url": "https://nitc.nebraska.gov/docs/2-201.pdf"
+    },
+    {
+      "title": "OCIO Digital Accessibility",
+      "url": "https://cio.nebraska.gov/accessibility/"
+    }
+  ],
+  "applies_to": "State agencies: ICT procured, developed, maintained or used; public safety systems exempt from 508 portion.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II rule: state government and local governments with population 50,000+ must conform web content and mobile apps to WCAG 2.1 AA (extended from 2026-04-24 by DOJ IFR effective 2026-04-20)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II rule: local governments under 50,000 and special district governments (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Conform ICT to Revised 508 Standards with Nebraska modifications (legacy ICT cutoff 2020-11-14)",
+    "Web and mobile conform to 28 CFR 35 Subpart H",
+    "OCIO testing support (manual and automated)"
+  ],
+  "mobile": "explicit — NITC 2-101(3)(b) adopts 28 CFR 35 Subpart H 'Web and Mobile Accessibility'.",
+  "procurement": "Statutory technology access clause required in all state contracts for automated information systems; current clause posted by DAS Materiel Purchasing.",
+  "enforcement": "No state penalty found; OCIO Digital Accessibility team support (OCIO.DigitalAccessibility@nebraska.gov); ADA Title II complaints.",
+  "office_url": "https://cio.nebraska.gov/accessibility/",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://nitc.nebraska.gov/docs/2-101.pdf",
+    "https://nitc.nebraska.gov/docs/2-201.pdf",
+    "https://nebraskalegislature.gov/laws/statutes.php?statute=73-205",
+    "https://cio.nebraska.gov/accessibility/",
+    "https://www.federalregister.gov/api/v1/documents/2026-07663.json?fields[]=title&fields[]=abstract&fields[]=effective_on&fields[]=dates&fields[]=html_url"
+  ],
+  "notes": "DAS vendor-info page with the current clause (das.nebraska.gov/materiel/purchase_bureau/vendor-info.html) was not opened. No accessibility statement or coordinator mandate found at state level."
+}

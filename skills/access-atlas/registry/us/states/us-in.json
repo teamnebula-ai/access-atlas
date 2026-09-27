@@ -1,0 +1,58 @@
+{
+  "id": "us-in",
+  "name": "Indiana",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "Section 508-compatible standards (IC 4-13.1-3); IN.gov states WCAG 2.1 and Revised 508",
+  "laws": [
+    {
+      "cite": "IC 4-13.1-3-1",
+      "summary": "The Office of Technology must adopt accessibility standards that conform to Section 508, with a later-compliance plan for undue burden.",
+      "url": "https://law.justia.com/codes/indiana/title-4/article-13-1/chapter-3/section-4-13-1-3-1/"
+    },
+    {
+      "cite": "28 C.F.R. Part 35, Subpart H (ADA Title II web and mobile rule, 2024; dates extended by DOJ interim final rule 2026-04-20)",
+      "summary": "State and local governments must make web content and mobile apps conform to WCAG 2.1 AA.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "IOT Policy ITP 02-1 Assistive Technology Standards (2002, reissued 2005/2007)",
+      "url": "https://www.in.gov/iot/files/pps/AssistiveTechnologyStandards.pdf"
+    },
+    {
+      "title": "IN.gov Accessibility Policy",
+      "url": "https://secure.in.gov/core/accessibility/"
+    }
+  ],
+  "applies_to": "Per ITP 02-1: executive, legislative, judicial and administrative branches of state and local government.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II floor: public entities with population 50,000+ must meet WCAG 2.1 AA (extended from 2026-04-24)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Federal ADA Title II floor: entities under 50,000 and special districts (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Include Section 508 compliance in every IT solicitation and contract",
+    "An entity that cannot comply without undue burden must file a plan with a timeline and interim alternative access (statute)",
+    "IOT approves waivers; a cost difference over 15% counts as undue burden"
+  ],
+  "mobile": "not addressed — neither the statute nor the IOT policy mentions mobile apps.",
+  "procurement": "Section 508 compliance required in solicitations and contracts; vendors may state exceptions on a VPAT; agencies may terminate for uncured breach.",
+  "enforcement": "IOT waiver and review process; report IN.gov issues to INgovManagement@iot.IN.gov.",
+  "office_url": "https://www.in.gov/iot/policies-procedures-and-standards/",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.in.gov/iot/files/pps/AssistiveTechnologyStandards.pdf",
+    "https://secure.in.gov/core/accessibility/",
+    "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+  ],
+  "notes": "The statute text came only from a search snippet (Justia returned 403). IN.gov says IC 4-13.1-3 requires WCAG 2.1, but the statute text names Section 508, so the two conflict. ITP 02-1 is dated and refers to the old 508 standards. office_url comes from search results and was not opened. Federal floor: ADA Title II rule (WCAG 2.1 AA, web + mobile apps) applies to all state and local government regardless of state law; DOJ's 2026-04-20 interim final rule moved compliance dates to 2027-04-26 / 2028-04-26."
+}

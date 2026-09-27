@@ -1,0 +1,10 @@
+{"target": "https://example.gov/", "scannedAt": "2026-09-27T00:00:00Z", "pagesDiscovered": 2, "documentsFound": ["https://example.gov/a.pdf"],
+ "tool": {"tags": ["wcag2a", "wcag2aa"]},
+ "pages": [
+  {"url": "https://example.gov/", "title": "Home", "violations": [
+    {"id": "image-alt", "impact": "critical", "help": "Images must have alternative text", "description": "d", "helpUrl": "https://x", "tags": ["wcag2a", "wcag111"], "count": 3,
+     "nodes": [{"target": "img", "html": "<img>", "summary": "s"}]},
+    {"id": "target-size", "impact": "serious", "help": "Touch targets too small", "description": "d", "helpUrl": "https://x", "tags": ["wcag22aa", "wcag258"], "count": 1, "nodes": []}],
+   "incomplete": [], "checks": {"reflow": {"scrollWidth": 500, "pass": false}, "keyboard": {"skipLink": true, "noVisibleFocus": []}}},
+  {"url": "https://example.gov/pay", "title": "Pay", "violations": [], "incomplete": [], "checks": {"reflow": {"scrollWidth": 320, "pass": true}, "keyboard": {"skipLink": false, "noVisibleFocus": []}}}
+ ]}

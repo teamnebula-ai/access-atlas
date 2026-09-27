@@ -1,0 +1,66 @@
+{
+  "id": "eu-eaa",
+  "name": "European Accessibility Act",
+  "level": "supranational",
+  "country": "EU",
+  "parent": null,
+  "standard": "Annex I functional requirements; presumption of conformity via harmonised standards (EN 301 549 V3.2.1 today; V4.1.1 adds Annex ZB mapping to the EAA once cited)",
+  "laws": [
+    {
+      "cite": "Directive (EU) 2019/882",
+      "summary": "Sets common accessibility requirements for listed consumer products and services placed on the EU market.",
+      "url": "https://eur-lex.europa.eu/eli/dir/2019/882/oj"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "European Accessibility Act (European Commission)",
+      "url": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/union-equality-strategy-rights-persons-disabilities-2021-2030/european-accessibility-act_en"
+    }
+  ],
+  "applies_to": "Economic operators (manufacturers, importers, distributors, service providers), mostly private sector. Products: consumer computers and OSes, payment terminals, ATMs, ticketing/check-in machines, interactive info kiosks, smartphones, TV equipment, e-readers. Services to consumers: electronic communications, access to audiovisual media, passenger transport (air, bus, rail, waterborne) websites, apps, e-tickets and real-time info, consumer banking, e-books, e-commerce, and 112 emergency answering.",
+  "deadlines": [
+    {
+      "date": "2022-06-28",
+      "what": "Transposition deadline"
+    },
+    {
+      "date": "2025-06-28",
+      "what": "National measures apply to products placed on the market and services provided after this date"
+    },
+    {
+      "date": "2027-06-28",
+      "what": "Latest date Member States may apply the 112 emergency-answering obligation (Art 31(3))"
+    },
+    {
+      "date": "2030-06-28",
+      "what": "End of transitional period: services using products already in use before 2025-06-28; pre-2025 service contracts may run unchanged until expiry but no longer than this (Art 32(1))"
+    }
+  ],
+  "exceptions": [
+    "Microenterprises providing services (fewer than 10 staff and at most EUR 2m turnover or balance sheet) are exempt from service requirements (Art 4(5))",
+    "Disproportionate burden or fundamental alteration (Art 14), subject to assessment and notification",
+    "Self-service terminals in use before 2025-06-28 may continue until end of economic life, max 20 years (Art 32(2), Member State option)",
+    "Urban, suburban and regional transport: only interactive self-service terminal requirements apply"
+  ],
+  "requires": [
+    "Products and services must meet Annex I accessibility requirements",
+    "Service providers must publish information on how the service meets the requirements (Annex V)",
+    "Manufacturers: technical documentation, EU declaration of conformity, CE marking for products"
+  ],
+  "mobile": "explicit — Art 2(2)(c)(ii) covers mobile device-based services including mobile apps for transport; e-commerce, banking and e-book services include their apps.",
+  "procurement": "Art 24(1): for covered products and services, Annex I requirements are the mandatory accessibility requirements under Art 42(1) of Directive 2014/24/EU and Art 60(1) of Directive 2014/25/EU. Government contractors supplying covered products/services (e.g. kiosks, e-ticketing, payment terminals, banking apps) must meet them. Art 24(2) gives a presumption of conformity with accessibility duties in other Union acts.",
+  "enforcement": "National market surveillance authorities check products and services, with penalties set by each Member State. The Commission monitors transposition and runs an expert group.",
+  "office_url": "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/union-equality-strategy-rights-persons-disabilities-2021-2030/european-accessibility-act_en",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://www.legislation.gov.uk/eudr/2019/882/article/2/data.xht",
+    "https://www.legislation.gov.uk/eudr/2019/882/article/4/data.xht",
+    "https://www.legislation.gov.uk/eudr/2019/882/article/24/data.xht",
+    "https://www.legislation.gov.uk/eudr/2019/882/article/31/data.xht",
+    "https://www.legislation.gov.uk/eudr/2019/882/article/32/data.xht",
+    "https://commission.europa.eu/strategy-and-policy/policies/justice-and-fundamental-rights/disability/union-equality-strategy-rights-persons-disabilities-2021-2030/european-accessibility-act_en"
+  ],
+  "notes": "Article text read from legislation.gov.uk's copy of the EU directive. The microenterprise thresholds come from Art 3(23) and the Commission Recommendation, confirmed only via secondary sources here. The EAA does not cover public sector websites; the WAD does. A public body's own website is WAD, but a bank or e-commerce service it procures may be EAA."
+}

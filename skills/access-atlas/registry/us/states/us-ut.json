@@ -1,0 +1,67 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-ut",
+  "name": "Utah",
+  "level": "state",
+  "standard": "WCAG 2.1 (R895-14-3; 'at minimum'); statute requires standards consistent with the most recent WCAG. Section 508 also referenced.",
+  "laws": [
+    {
+      "cite": "Utah Code § 63A-16-209 (eff. 2021-07-01)",
+      "summary": "Directs the state CIO to set, by rule, minimum accessibility standards for executive branch websites, procured hardware/software and employee systems that are consistent with the latest WCAG, tested by people with disabilities, with a grievance process to the CIO, updated at least every three years.",
+      "url": "https://le.utah.gov/xcode/Title63A/Chapter16/63A-16-S209.html"
+    },
+    {
+      "cite": "Utah Admin. Code R895-14 (amended eff. 2020-08-12)",
+      "summary": "Requires agency websites, procured hardware/software and employee information systems created after 2015-06-01 to conform at minimum to WCAG 2.1, or provide full-function alternative access; undue-burden alternatives require CIO approval.",
+      "url": "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R895-14-3"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Utah Design System — Accessibility",
+      "url": "https://designsystem.utah.gov/guidelinesStandards/accessibility"
+    },
+    {
+      "title": "Utah.gov Accessibility",
+      "url": "https://www.utah.gov/support/accessibility.html"
+    }
+  ],
+  "applies_to": "Executive branch agencies under the state CIO (Title 63A Ch. 16). Local governments are covered only by the ADA Title II floor.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II floor: state government and local entities with population 50,000+ must conform to WCAG 2.1 AA (extended from 2026-04-24 by the 2026 DOJ IFR)."
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II floor: local entities under 50,000 population and special district governments (extended from 2027-04-26)."
+    }
+  ],
+  "requires": [
+    "Conform to WCAG 2.1 or provide an alternative method of access with full functionality",
+    "Vendors must comply with applicable accessibility standards",
+    "Testing protocol including testing by people with a variety of access limitations",
+    "Grievance procedure letting people report access issues to the CIO",
+    "CIO updates standards at least every three years",
+    "Undue-burden alternatives approved by the CIO"
+  ],
+  "mobile": "implied — covers websites, procured software and information systems; mobile apps not named.",
+  "procurement": "Hardware and software procured by agencies must conform; vendors must meet the standards (R895-14-3).",
+  "enforcement": "Statutory grievance to the state CIO (DTS); utah.gov feedback form or 801-983-0275; ADA Title II complaints to US DOJ.",
+  "office_url": "https://www.utah.gov/support/accessibility.html",
+  "confidence": "high",
+  "sources": [
+    "https://le.utah.gov/xcode/Title63A/Chapter16/C63A-16-S209_2021050520210701.html",
+    "https://www.law.cornell.edu/regulations/utah/Utah-Admin-Code-R895-14-3",
+    "https://www.utah.gov/support/accessibility.html",
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "The rule text says 'WCAG Version 2.1' without naming a level; secondary sources say AA. The statute's 'most recent WCAG' language arguably points to 2.2, and the rule has not been updated since 2020."
+}

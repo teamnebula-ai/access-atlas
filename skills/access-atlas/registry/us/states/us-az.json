@@ -1,0 +1,56 @@
+{
+  "id": "us-az",
+  "name": "Arizona",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "Section 508 / WCAG (current ASET Policy P1300 level could not be verified)",
+  "laws": [
+    {
+      "cite": "A.R.S. § 41-3504(A)(1)(a)",
+      "summary": "Authorizes the state IT office to adopt statewide IT policies and standards, including web accessibility.",
+      "url": "https://aztaxes.gov/PDF/WebSiteAccessibilityPolicy.pdf"
+    },
+    {
+      "cite": "28 C.F.R. Part 35, Subpart H (ADA Title II web and mobile rule, 2024; dates extended by DOJ interim final rule 2026-04-20)",
+      "summary": "State and local governments must make web content and mobile apps conform to WCAG 2.1 AA.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "ASET Policy P1300 Website Accessibility Policy (current; not opened — site blocked)",
+      "url": "https://aset.az.gov/sites/default/files/P1300%20Website%20Accessibility%20Policy_0.pdf"
+    },
+    {
+      "title": "GITA Policy P130 Rev 1.0 Web Site Accessibility (2008, predecessor)",
+      "url": "https://aztaxes.gov/PDF/WebSiteAccessibilityPolicy.pdf"
+    }
+  ],
+  "applies_to": "All budget units (state departments, boards, commissions, including Board of Regents) excluding universities, community college districts, and legislative and judicial branches (per P130).",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II floor: public entities with population 50,000+ must meet WCAG 2.1 AA (extended from 2026-04-24)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Federal ADA Title II floor: entities under 50,000 and special districts (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Follow the statewide accessibility model for web content (P130)",
+    "Each budget unit keeps current through its ADA/508 Coordinator"
+  ],
+  "mobile": "not addressed — P130 covers websites only; P1300 text not verified.",
+  "procurement": "Not verified.",
+  "enforcement": "Not verified; secondary sources claim civil action and loss of state funding but no primary source confirmed this.",
+  "office_url": "https://aset.az.gov/policies-standards-and-procedures",
+  "as_of": "2026-09-27",
+  "confidence": "low",
+  "sources": [
+    "https://aztaxes.gov/PDF/WebSiteAccessibilityPolicy.pdf",
+    "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+  ],
+  "notes": "aset.az.gov and az.gov returned 403 (Cloudflare), so current Policy P1300's WCAG version, dates and requirements are unverified. Only the 2008 predecessor P130 (Section 508-based) was read. A search snippet says ASET sites target WCAG 2.2 A/AA, which is also unverified. Federal floor: ADA Title II rule (WCAG 2.1 AA, web + mobile apps) applies to all state and local government regardless of state law; DOJ's 2026-04-20 interim final rule moved compliance dates to 2027-04-26 / 2028-04-26."
+}

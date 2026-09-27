@@ -1,0 +1,42 @@
+{
+  "id": "us-ada-title-iii",
+  "name": "ADA Title III - public accommodations (websites and apps of businesses)",
+  "level": "federal",
+  "country": "US",
+  "parent": null,
+  "standard": "None codified; WCAG 2.1 AA (or 2.0 AA) is the de facto benchmark in settlements and court orders",
+  "laws": [
+    {
+      "cite": "42 U.S.C. 12181-12189 (ADA Title III); 28 CFR part 36",
+      "summary": "Businesses open to the public must not discriminate on the basis of disability in their goods and services, which DOJ says includes those offered on the web.",
+      "url": "https://www.ada.gov/resources/web-guidance/"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "DOJ Guidance on Web Accessibility and the ADA (March 18, 2022)",
+      "url": "https://www.ada.gov/resources/web-guidance/"
+    }
+  ],
+  "applies_to": "Private businesses that are places of public accommodation (retail, hospitality, healthcare providers, private schools and universities, etc.) and, depending on the federal circuit, their stand-alone websites and apps. Relevant to gov-tech vendors only indirectly; state/local government sites fall under Title II.",
+  "deadlines": [],
+  "exceptions": [
+    "Circuit split on whether web-only businesses with no physical place are covered (e.g. nexus requirement in some circuits)",
+    "Undue burden and fundamental alteration defenses"
+  ],
+  "requires": [
+    "Effective communication and equal access to goods and services offered online; DOJ's 2022 guidance lets businesses choose how to comply and points to WCAG and Section 508 as helpful references"
+  ],
+  "mobile": "implied - DOJ's 2022 guidance and case law treat apps like websites, but no rule addresses them.",
+  "procurement": "None.",
+  "enforcement": "Private lawsuits (injunctive relief and attorney fees; damages only under state laws such as California's Unruh Act), DOJ investigations and settlement agreements.",
+  "office_url": "https://www.ada.gov/",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.ada.gov/resources/web-guidance/",
+    "https://www.adatitleiii.com/2025/03/doj-withdraws-eleven-ada-guidance-documents-for-public-accommodations/",
+    "https://newenglandbizlawupdate.com/2025/10/15/doj-shelves-ada-rulemaking-on-digital-accessibility/"
+  ],
+  "notes": "The 2022 web guidance is still live on ADA.gov (with a banner noting it does not reflect the 2024 Title II rule). DOJ withdrew 11 Title III guidance documents on 2025-03-19, none about web accessibility. Per an October 2025 law-firm post, DOJ also withdrew/shelved pending ADA rulemaking including Title III digital accessibility (websites, kiosks) as part of a halt on 54 pending rules; exact RIN and Unified Agenda citation not verified (low confidence on specifics). CVAA (21st Century Communications and Video Accessibility Act) and ACAA (Air Carrier Access Act, 14 CFR 382.43 airline websites/kiosks) are sector rules for communications services and airlines and do not govern government apps - intentionally no separate entries."
+}

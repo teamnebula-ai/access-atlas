@@ -1,0 +1,51 @@
+{
+  "id": "se",
+  "name": "Sweden",
+  "level": "national",
+  "country": "SE",
+  "parent": "eu-wad",
+  "standard": "EN 301 549 (WCAG 2.1 AA), via DIGG regulations MDFFS 2019:2",
+  "laws": [
+    {
+      "cite": "Lag (2018:1937) om tillgänglighet till digital offentlig service (DOS-lagen)",
+      "summary": "Public actors' websites and apps must be accessible and carry an accessibility statement.",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-20181937-om-tillganglighet-till-digital_sfs-2018-1937/"
+    },
+    {
+      "cite": "Förordning (2018:1938)",
+      "summary": "Implementing ordinance that names the supervisory authority.",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/forordning-20181938-om-tillganglighet-till_sfs-2018-1938/"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "DOS-lagen och Diggs föreskrifter",
+      "url": "https://www.digg.se/webbriktlinjer/lagar-och-krav/dos-lagen-och-diggs-foreskrifter"
+    }
+  ],
+  "applies_to": "State and municipal authorities, municipal and regional decision-making assemblies, publicly controlled bodies, and some private actors in education and health care.",
+  "deadlines": [
+    {
+      "date": "2019-01-01",
+      "what": "DOS-lagen in force (date not opened)"
+    }
+  ],
+  "exceptions": [
+    "WAD exceptions and disproportionate burden"
+  ],
+  "requires": [
+    "Meet EN 301 549",
+    "Publish an accessibility statement (tillgänglighetsredogörelse)",
+    "Feedback mechanism"
+  ],
+  "mobile": "explicit — the law covers websites and mobile applications.",
+  "procurement": "Not captured in sources opened.",
+  "enforcement": "DIGG (Agency for Digital Government) supervises and issues regulations; users can report to DIGG after an unsatisfactory reply.",
+  "office_url": "https://www.digg.se/",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.digg.se/webbriktlinjer/lagar-och-krav/dos-lagen-och-diggs-foreskrifter"
+  ],
+  "notes": "The Riksdagen URLs came from search results and were not opened. DIGG's specific powers (injunctions, fines) are not confirmed here."
+}

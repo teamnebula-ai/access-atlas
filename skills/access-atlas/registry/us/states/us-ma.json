@@ -1,0 +1,65 @@
+{
+  "id": "us-ma",
+  "name": "Massachusetts",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "WCAG 2.1 (or later) A/AA; ATAG 2.0 for authoring tools; Section 508 Ch. 4 + 521 CMR for hardware",
+  "laws": [
+    {
+      "cite": "M.G.L. c. 7D, §3",
+      "summary": "Executive department agencies must follow EOTSS IT policies, which is the authority for the Enterprise Digital Accessibility Policy.",
+      "url": "https://www.mass.gov/info-details/enterprise-digital-accessibility-policy"
+    },
+    {
+      "cite": "Executive Order 614",
+      "summary": "Establishes the Digital Accessibility and Equity Governance Board that advises EOTSS on the policy.",
+      "url": "https://www.mass.gov/info-details/enterprise-digital-accessibility-policy"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web & mobile rule, 2024; dates extended by IFR 2026-07663)",
+      "summary": "Federal floor: state and local government web content and mobile apps must conform to WCAG 2.1 AA; the April 2026 IFR moved compliance to 2027-04-26 (pop. 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Enterprise Digital Accessibility Policy (published 2025-08-01)",
+      "url": "https://www.mass.gov/info-details/enterprise-digital-accessibility-policy"
+    },
+    {
+      "title": "Commonwealth Executive Department Digital Accessibility Statement",
+      "url": "https://www.mass.gov/info-details/commonwealth-of-massachusetts-executive-department-digital-accessibility-statement"
+    }
+  ],
+  "applies_to": "Executive Department offices, boards, commissions and agencies; other entities using EOTSS services (e.g. mass.gov) as a condition of use; contractors building digital assets for them.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II rule: state government and local governments with population 50,000+ must conform web content and mobile apps to WCAG 2.1 AA (extended from 2026-04-24 by DOJ IFR effective 2026-04-20)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II rule: local governments under 50,000 and special district governments (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Secretariat IT Accessibility Officer implements; agency CIO accountable",
+    "Role-based training with completion records",
+    "Automated and manual testing before deployment and ongoing monitoring",
+    "Mitigation Plan for any noncompliant asset, submitted with an exception request",
+    "No accessibility overlays",
+    "Enterprise digital accessibility statement maintained by EOTSS"
+  ],
+  "mobile": "explicit — policy scope lists mobile applications under WCAG 2.1+.",
+  "procurement": "Must follow 'Procurement of Accessible Digital Products and Services' and use Vendor Digital Accessibility Contract Language (details not reviewed).",
+  "enforcement": "Noncompliant agencies may lose capital funding eligibility; domain requests denied; EOTSS may remove DNS records of violating assets. Inquiries: digitalaccessibility@mass.gov.",
+  "office_url": "https://www.mass.gov/info-details/enterprise-digital-accessibility-policy",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://web.archive.org/web/2026/https://www.mass.gov/info-details/enterprise-digital-accessibility-policy",
+    "https://www.federalregister.gov/api/v1/documents/2026-07663.json?fields[]=title&fields[]=abstract&fields[]=effective_on&fields[]=dates&fields[]=html_url"
+  ],
+  "notes": "mass.gov returned 403 to direct fetches; policy read from the Wayback Machine 2026 snapshot. No Massachusetts statute setting a web standard found; authority is c.7D plus civil rights laws. Procurement guidance page not opened."
+}

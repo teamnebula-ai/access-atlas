@@ -1,0 +1,53 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-ri",
+  "name": "Rhode Island",
+  "level": "state",
+  "standard": "ADA Title II floor (WCAG 2.1 AA); the only state policy found is the 1999 IRMB Universal Website Accessibility policy (WCAG 1.0 Priority 1 / Section 508)",
+  "laws": [
+    {
+      "cite": "R.I. Gen. Laws § 42-11-2.8",
+      "summary": "Creates the Division of Enterprise Technology Strategy and Services (ETSS), which runs state IT and digital services; it sets no accessibility standard itself.",
+      "url": "https://law.justia.com/codes/rhode-island/title-42/chapter-42-11/section-42-11-2-8/"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "RI.gov accessibility / Universal Website Accessibility policy (IRMB, approved 1999-01-21)",
+      "url": "https://www.ri.gov/resource/accessibility/"
+    }
+  ],
+  "applies_to": "All state websites and agencies under the 1999 policy; local governments via the ADA Title II floor.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II floor: state government and local entities with population 50,000+ must conform to WCAG 2.1 AA (extended from 2026-04-24 by the 2026 DOJ IFR)."
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II floor: local entities under 50,000 population and special district governments (extended from 2027-04-26)."
+    }
+  ],
+  "requires": [
+    "1999 policy: department name, update date and email contact on pages; HTML preferred, accessible alternatives to PDF",
+    "Office of Library and Information Services monitors state sites"
+  ],
+  "mobile": "not addressed — the state policy predates mobile apps; only the federal rule covers them.",
+  "procurement": "No state accessibility procurement clause found.",
+  "enforcement": "No formal state complaint path found; ADA Title II complaints to US DOJ.",
+  "office_url": "https://etss.ri.gov/",
+  "confidence": "medium",
+  "sources": [
+    "https://www.ri.gov/resource/accessibility/",
+    "https://www.law.cornell.edu/uscode/text/42/12103",
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "No current RI statute, executive order or ETSS standard naming WCAG 2.x was found. The 1999 policy is obsolete in practice. The § 42-11-2.8 link is from search results and was not opened."
+}

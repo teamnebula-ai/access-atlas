@@ -1,0 +1,50 @@
+{
+  "id": "dk",
+  "name": "Denmark",
+  "level": "national",
+  "country": "DK",
+  "parent": "eu-wad",
+  "standard": "EN 301 549 V3.2.1 (WCAG 2.1 AA)",
+  "laws": [
+    {
+      "cite": "Lov nr. 692 af 08/06/2018 om tilgængelighed af offentlige organers websteder og mobilapplikationer",
+      "summary": "Public bodies' websites and mobile apps must meet the harmonised standard and publish an accessibility statement.",
+      "url": "https://www.retsinformation.dk/eli/lta/2018/692"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Digitaliseringsstyrelsen — webtilgængelighed",
+      "url": "https://digst.dk/digital-inklusion/webtilgaengelighed/"
+    },
+    {
+      "title": "WAS-Tool (accessibility statements)",
+      "url": "https://was.digst.dk/"
+    }
+  ],
+  "applies_to": "Authorities and bodies governed by public law.",
+  "deadlines": [
+    {
+      "date": "2018-09-23",
+      "what": "Law applies (date not opened)"
+    }
+  ],
+  "exceptions": [
+    "WAD exceptions and disproportionate burden"
+  ],
+  "requires": [
+    "Meet EN 301 549",
+    "Accessibility statement created in Digitaliseringsstyrelsen's WAS-Tool",
+    "Feedback link for users to report inaccessible content"
+  ],
+  "mobile": "explicit — the law's title covers mobile applications.",
+  "procurement": "Not captured in sources opened.",
+  "enforcement": "Digitaliseringsstyrelsen (Agency for Digital Government) monitors and supervises compliance and receives citizen reports.",
+  "office_url": "https://digst.dk/digital-inklusion/webtilgaengelighed/",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://digst.dk/digital-inklusion/webtilgaengelighed/"
+  ],
+  "notes": "The law citation comes from a retsinformation.dk search result, which was not opened. The page names 'edit.was.digst.dk' as the tool host; the was.digst.dk root is inferred from it."
+}

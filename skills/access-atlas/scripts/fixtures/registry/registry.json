@@ -1,0 +1,9 @@
+[
+  {"id": "us-ada-title-ii", "name": "ADA Title II", "level": "federal", "parent": null, "standard": "WCAG 2.1 AA",
+   "laws": [{"cite": "28 CFR 35 subpart H", "url": "https://www.ada.gov/"}], "deadlines": [{"date": "2027-04-26", "what": "50,000+"}],
+   "as_of": "2026-09-27", "confidence": "high", "sources": ["https://www.ada.gov/"]},
+  {"id": "us-xx", "name": "Example State", "level": "state", "parent": "us-federal", "standard": "Section 508",
+   "laws": [{"cite": "Example Code 1"}], "as_of": "2026-09-27", "confidence": "medium", "sources": ["https://example.gov/"]},
+  {"id": "xx-22", "name": "Example 2.2 city", "level": "local", "parent": null, "standard": "WCAG 2.2 AA",
+   "policy_docs": [{"title": "Policy"}], "as_of": "2026-09-27", "confidence": "low", "sources": []}
+]

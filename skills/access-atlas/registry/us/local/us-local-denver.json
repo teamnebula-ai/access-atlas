@@ -1,0 +1,52 @@
+{
+  "id": "us-local-denver",
+  "name": "City and County of Denver - Digital Accessibility (Colorado HB21-1110)",
+  "level": "local",
+  "country": "US",
+  "parent": "us-ada-title-ii",
+  "standard": "WCAG 2.1 AA",
+  "laws": [
+    {
+      "cite": "Colorado HB21-1110 (C.R.S. 24-85-101 et seq.) and 8 CCR 1501-11 Technology Accessibility Rules (Colorado OIT)",
+      "summary": "State law requiring Colorado state and local government digital content, public and internal, to meet the OIT accessibility rules based on WCAG 2.1 AA, with statutory damages for violations.",
+      "url": "https://oit.colorado.gov/accessibility-law"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Denvergov.org - Accessibility",
+      "url": "https://www.denvergov.org/Accessibility"
+    },
+    {
+      "title": "Denver Brand Guide - Digital Accessibility",
+      "url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Marketing-Services/Brand-Guide/Digital-Accessibility"
+    }
+  ],
+  "applies_to": "All Denver city and county digital content and ICT, public-facing and internal (per HB21-1110).",
+  "deadlines": [
+    {
+      "date": "2025-07-01",
+      "what": "HB21-1110 conformance deadline for entities using the HB24-1454 good-faith grace period (original 2024-07-01)."
+    },
+    {
+      "date": "2027-04-26",
+      "what": "Federal Title II date as extended."
+    }
+  ],
+  "exceptions": [],
+  "requires": [
+    "WCAG 2.1 AA per 8 CCR 1501-11",
+    "Public accessibility statement",
+    "Digital accessibility complaint channel"
+  ],
+  "mobile": "implied - HB21-1110 covers applications and all digital content; Title II covers mobile apps explicitly.",
+  "procurement": "Not stated on the city page; OIT rules apply to procured ICT (unverified).",
+  "enforcement": "Private civil actions under HB21-1110 with statutory damages ($3,500 per violation reported by secondary sources); federal Title II.",
+  "office_url": "https://www.denvergov.org/Accessibility",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.denvergov.org/Accessibility"
+  ],
+  "notes": "Colorado OIT page returned 403; HB21-1110 details and HB24-1454 grace from secondary search summaries (levelaccess, lightspeedsystems). C.R.S. section cite from general knowledge, unverified. Contact: HRCP Disability Rights Division."
+}

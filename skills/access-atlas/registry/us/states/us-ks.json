@@ -1,0 +1,66 @@
+{
+  "id": "us-ks",
+  "name": "Kansas",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "ITEC 1210 (Revised Section 508; Rev 3 = WCAG 2.0 AA, Rev 4 reportedly WCAG 2.1 AA)",
+  "laws": [
+    {
+      "cite": "K.S.A. 75-7203",
+      "summary": "Lets the Information Technology Executive Council adopt IT policies for state entities.",
+      "url": "https://smartweb.ks.gov/accessibility-policy"
+    },
+    {
+      "cite": "Governor's Executive Order 08-12",
+      "summary": "Directs the Kansas Partnership for Accessible Technology to recommend accessibility policy to ITEC.",
+      "url": "https://smartweb.ks.gov/accessibility-policy"
+    },
+    {
+      "cite": "28 C.F.R. Part 35, Subpart H (ADA Title II web and mobile rule, 2024; dates extended by DOJ interim final rule 2026-04-20)",
+      "summary": "State and local governments must make web content and mobile apps conform to WCAG 2.1 AA.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "ITEC 1210-P Revision 4 – ICT Accessibility Policy (not opened; 403)",
+      "url": "https://www.ebit.ks.gov/resources/governance/it-executive-council/itec-policies-standards/1210-information-and-communication-technology-accessibility-standards"
+    },
+    {
+      "title": "ITEC Policy 1210 Revision 3 (revised 2018-12-11), as republished on smartweb.ks.gov",
+      "url": "https://smartweb.ks.gov/accessibility-policy"
+    }
+  ],
+  "applies_to": "All branches, boards, commissions, departments, divisions and agencies of state government.",
+  "deadlines": [
+    {
+      "date": "2020-06-11",
+      "what": "Rev 3: all entity ICT to conform within 18 months of publication (approximate, from the 2018-12-11 revision)"
+    },
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II floor: public entities with population 50,000+ must meet WCAG 2.1 AA (extended from 2026-04-24)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Federal ADA Title II floor: entities under 50,000 and special districts (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "ICT must conform to Revised 508 Chapters 3–7; public-facing content and official communications must meet WCAG AA",
+    "Written undue-burden or best-meets exceptions with cost estimates and a remediation timeline, approved by the State ADA Coordinator before deployment",
+    "Heads of entities set compliance procedures; KPAT reviews the policy yearly"
+  ],
+  "mobile": "implied — software, applications and platform software (including mobile systems) are covered through Section 508 terms; mobile apps are not named.",
+  "procurement": "Standards apply to ICT procured or provided through contracts; best-meets exception requires documented market research.",
+  "enforcement": "Administrative through the State ADA Coordinator and KPAT; no statutory remedy found.",
+  "office_url": "https://www.ebit.ks.gov/resources/governance/it-executive-council/kpat/resources/guidance-for-web-developers",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://smartweb.ks.gov/accessibility-policy",
+    "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+  ],
+  "notes": "ebit.ks.gov returned 403, so Revision 4's date and its WCAG 2.1 AA requirement (§ 6.2.3 per search snippet) are unverified. Only Revision 3 (WCAG 2.0) was read. office_url comes from search results and was not opened. Federal floor: ADA Title II rule (WCAG 2.1 AA, web + mobile apps) applies to all state and local government regardless of state law; DOJ's 2026-04-20 interim final rule moved compliance dates to 2027-04-26 / 2028-04-26."
+}
