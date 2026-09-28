@@ -17,5 +17,7 @@
     "government",
     "compliance",
     "audit"
-  ]
+  ],
+  "homepage": "https://github.com/teamnebula-ai/access-atlas",
+  "repository": "https://github.com/teamnebula-ai/access-atlas"
 }

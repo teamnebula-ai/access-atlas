@@ -6,6 +6,10 @@ accessibility law binds that owner, and grades the site against that standard. T
 what fails, what to fix first, what was never tested, and hands you a prompt that gets an AI
 coding agent to fix it all.
 
+![Access Atlas auditing traviscountytx.gov: it finds the owner, picks ADA Title II and WCAG 2.1 AA, asks how deep to scan, scans 25 pages and shows a grade A scorecard](docs/demo/access-atlas.gif)
+
+<sub>A replay of a real run on traviscountytx.gov. The terminal is scripted from that run's log; the scorecard is the real report. Rebuild it with `node docs/demo/record.mjs`.</sub>
+
 Government sites have to meet accessibility standards: ADA Title II and Section 508 in the US,
 a state law or policy in most states, the Web Accessibility Directive in the EU, and similar
 rules elsewhere. The standards are public. What's hard is knowing which one applies to *you*.
@@ -98,12 +102,12 @@ confidence level. Low confidence means "verify before quoting", and the report s
 **Claude Code (plugin):**
 
 ```text
-/plugin marketplace add <owner>/access-atlas
+/plugin marketplace add teamnebula-ai/access-atlas
 /plugin install access-atlas@access-atlas
 ```
 
 **Any other agent** (Codex, Cursor, Copilot, Gemini CLI, Aider, Windsurf, Cline, an Agent SDK
-app): clone the repository. [`AGENTS.md`](AGENTS.md) tells any agent how to use it, and tools
+app): `git clone https://github.com/teamnebula-ai/access-atlas`. [`AGENTS.md`](AGENTS.md) tells any agent how to use it, and tools
 that read `AGENTS.md`, `CLAUDE.md` or `GEMINI.md` pick it up when you work in the repo. To use
 the skills from anywhere, `./install.sh [skills-dir]` links them into your agent's skills folder.
 

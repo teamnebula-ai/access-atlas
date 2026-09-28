@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Access Atlas demo</title>
+<!-- A scripted replay of a real run on traviscountytx.gov (2026-09-27). record.mjs steps
+     window.show(t) frame by frame; the last scene is the real report's scorecard. -->
+<style>
+  :root { --bg:#0f1720; --fg:#d9e2ec; --dim:#7b8794; --acc:#5fb3b3; --ok:#8fce8f; --warn:#e5b567; --bad:#ec7a7a; }
+  * { box-sizing: border-box; }
+  html, body { margin:0; width:960px; height:600px; overflow:hidden; background:var(--bg); color:var(--fg);
+    font: 15px/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .bar { height:30px; background:#1b2733; display:flex; align-items:center; gap:7px; padding:0 12px; }
+  .bar i { width:11px; height:11px; border-radius:50%; display:block; }
+  .bar span { margin-left:10px; color:var(--dim); font-size:12px; }
+  #term { padding:14px 20px; height:570px; overflow:hidden; display:flex; flex-direction:column; justify-content:flex-end; }
+  .l { white-space:pre; min-height:1.5em; }
+  .dim { color:var(--dim); } .acc { color:var(--acc); } .ok { color:var(--ok); } .warn { color:var(--warn); } .bad { color:var(--bad); }
+  b { color:#fff; font-weight:600; }
+  .q { border:1px solid #33475b; border-radius:6px; padding:8px 12px; margin:6px 0; white-space:pre; }
+  .opt { display:block; padding:1px 6px; border-radius:3px; }
+  .opt.sel { background:#23445a; color:#fff; }
+  #card { position:absolute; inset:0; background:#fff; display:none; overflow:hidden; }
+  #card img { width:960px; display:block; position:absolute; left:0; top:0; }
+  #tag { position:absolute; right:14px; top:12px; background:#0f1720e0; color:#fff; padding:6px 10px; border-radius:5px; font-size:13px; }
+  .cur { display:inline-block; width:8px; height:1.1em; background:var(--fg); vertical-align:text-bottom; }
+</style>
+</head>
+<body>
+<div class="bar"><i style="background:#ec6a5e"></i><i style="background:#f4bf4f"></i><i style="background:#61c554"></i><span>claude — ~/county-web</span></div>
+<div id="term"></div>
+<div id="card"><img src="scorecard.png" alt="Access Atlas scorecard for traviscountytx.gov: grade A, 95 of 100"><div id="tag">Real report · graded against WCAG 2.1 AA under ADA Title II</div></div>
+<script>
+const CMD = '/access-atlas:audit https://www.traviscountytx.gov';
+const PAGES = [["/",3],["/health-human-services/apply-for-assistance",1],["/tnr/development-services/permitting-center",0],["/district-clerk/case-information-records",1],["/courts/criminal/docket-search",0],["/district-clerk/criminal-division/criminal-history-check",1],["/?Itemid=316",0],["/district-clerk/jury-duty",1],["/district-clerk/passport",1],["/service-directory",0],["/departments",1],["/news",0],["/human-resources/jobs",1],["/news/2026/2949-history-day",0],["/news/2026/2948-spooktacular-event-2027",0],["/news/2026/2941-travis-county-sheriffs-office-august-newsletter",0],["/news/2025/2838-postponement-to",0],["/news/2025/2769-notice-issue-certificates-of-obligation",0],["/commissioners-court/county-judge",1],["/commissioners-court/precinct-one",1],["/commissioners-court/precinct-two",1],["/tax-rates",0],["/accessibility-statement",0],["/disclaimer",0],["/its/website-privacy-policy",0]];
+// [time in seconds, html]
+const LINES = [
+  [2.6, '<span class="acc">⏺ scope</span> <span class="dim">— who owns this site?</span>'],
+  [3.1, '  Owner      <b>Travis County</b> · county · TX, US  <span class="dim">(page title + domain)</span>'],
+  [3.6, '  Binding    <b>ADA Title II</b> → <span class="ok">WCAG 2.1 AA</span>, due <b>Apr 26, 2027</b> <span class="dim">(50k+ residents)</span>'],
+  [4.1, '  Reference  Texas state rule <span class="dim">— covers state agencies and universities, not counties</span>'],
+  [4.8, '<span class="acc">⏺ size</span>  936 pages in 147 folders <span class="dim">(sitemap)</span>'],
+];
+const Q_AT = 5.4, PICK_AT = 7.0, SCAN_AT = 7.8, PER_PAGE = 0.13;
+const END_SCAN = SCAN_AT + PAGES.length * PER_PAGE;
+const CARD_AT = END_SCAN + 1.9;
+function show(t) {
+  const term = document.getElementById('term'), card = document.getElementById('card');
+  card.style.display = t >= CARD_AT ? 'block' : 'none';
+  if (t >= CARD_AT) {  // slow pan down the real scorecard
+    const k = Math.min(1, (t - CARD_AT) / 4.5), ease = k * k * (3 - 2 * k);
+    card.querySelector('img').style.top = (-ease * 180) + 'px';
+    return;
+  }
+  const out = [];
+  const typed = Math.max(0, Math.min(CMD.length, Math.floor((t - 0.3) * 26)));
+  out.push(`<div class="l"><span class="acc">&gt;</span> ${CMD.slice(0, typed)}${t < 2.4 ? '<span class="cur"></span>' : ''}</div>`);
+  for (const [at, html] of LINES) if (t >= at) out.push(`<div class="l">${html}</div>`);
+  if (t >= Q_AT && t < SCAN_AT) {
+    const opts = [['Quick', '25 pages · ~3 min'], ['Standard', '150 pages · ~15 min'], ['Full', '936 pages · ~94 min'], ['Sections', 'pick folders']];
+    const sel = t >= PICK_AT - 0.6 ? 0 : -1;
+    out.push('<div class="q"><b>How deep should the audit go?</b>\n' + opts.map((o, i) =>
+      `<span class="opt${i === sel ? ' sel' : ''}">${i === sel ? '❯' : ' '} ${o[0].padEnd(9)} <span class="dim">${o[1]}</span></span>`).join('') + '</div>');
+  }
+  if (t >= PICK_AT) out.push('<div class="l">  Scope      <b>Quick</b> <span class="dim">— chosen by the user, logged to run.json</span></div>');
+  if (t >= SCAN_AT) {
+    const n = Math.min(PAGES.length, Math.floor((t - SCAN_AT) / PER_PAGE) + 1);
+    out.push(`<div class="l"><span class="acc">⏺ scan</span>  axe-core · 320px reflow · keyboard  <span class="dim">[${String(n).padStart(2)}/25]</span></div>`);
+    for (const [p, v] of PAGES.slice(Math.max(0, n - 5), n))
+      out.push(`<div class="l">  ${v ? '<span class="warn">●</span>' : '<span class="ok">✓</span>'} ${p.length > 62 ? p.slice(0, 61) + '…' : p}${v ? ` <span class="warn">${v} issue${v > 1 ? 's' : ''}</span>` : ''}</div>`);
+  }
+  if (t >= END_SCAN + 0.3) out.push('<div class="l">  <span class="dim">stopped: page cap (25) — not scanned pages listed in the report</span></div>');
+  if (t >= END_SCAN + 0.9) out.push('<div class="l"><span class="acc">⏺ report</span> Grade <b class="ok">A</b> · 95/100 · <span class="bad">5 legal failures</span> · 0 critical · fix prompt ready</div>');
+  term.innerHTML = out.join('');
+}
+window.show = show;
+window.DURATION = CARD_AT + 6;
+show(0);
+</script>
+</body>
+</html>
