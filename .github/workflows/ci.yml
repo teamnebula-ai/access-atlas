@@ -18,4 +18,4 @@ jobs:
       - name: Shell scripts
         run: bash -n install.sh engine/audit.sh engine/ensure-deps.sh
       - name: No contributor names or machine paths
-        run: "! grep -rnIE '/Users/|/home/[a-z]+/' --exclude-dir=.git --exclude-dir=tests --exclude-dir=registry ."
+        run: "! grep -rnIE '/Users/|/home/[a-z]+/' --exclude-dir=.git --exclude-dir=.github --exclude-dir=tests --exclude-dir=registry ."
