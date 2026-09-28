@@ -14,6 +14,6 @@ jobs:
       - name: Unit tests
         run: python3 -m unittest discover -s skills/access-atlas/scripts -p "test_*.py" -v
       - name: Scanner parses
-        run: node --check skills/access-atlas/scripts/scan.mjs
+        run: node --check skills/access-atlas/scripts/scan.mjs && node skills/access-atlas/scripts/robots.test.mjs
       - name: Shell scripts
         run: bash -n install.sh && bash -n skills/access-atlas/scripts/ensure-deps.sh

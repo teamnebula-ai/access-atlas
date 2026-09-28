@@ -1,0 +1,20 @@
+{
+  "name": "access-atlas",
+  "owner": { "name": "Ian Kiku", "url": "https://github.com/iankiku" },
+  "metadata": {
+    "description": "Access Atlas: open-source accessibility audits mapped to the laws that require them.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "access-atlas",
+      "source": "./",
+      "description": "Accessibility audits mapped to the law: scorecard report, annotated screenshots, per-jurisdiction legal mapping and a fix prompt.",
+      "version": "0.1.0",
+      "author": { "name": "Ian Kiku" },
+      "license": "MIT",
+      "keywords": ["accessibility", "a11y", "wcag", "ada", "section-508", "government"],
+      "category": "accessibility"
+    }
+  ]
+}

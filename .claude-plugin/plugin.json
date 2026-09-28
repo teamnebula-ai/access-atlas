@@ -1,0 +1,10 @@
+{
+  "name": "access-atlas",
+  "description": "Accessibility audits mapped to the law. Scan a government website, see which law each WCAG failure breaks (ADA Title II, Section 508, all 50 US states, EU, UK, Canada and more), get a scorecard report with screenshots and a prompt that fixes it all.",
+  "version": "0.1.0",
+  "author": { "name": "Ian Kiku" },
+  "homepage": "https://github.com/iankiku/access-atlas",
+  "repository": "https://github.com/iankiku/access-atlas",
+  "license": "MIT",
+  "keywords": ["accessibility", "a11y", "wcag", "ada", "section-508", "title-ii", "en-301-549", "government", "compliance", "audit"]
+}

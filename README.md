@@ -43,25 +43,37 @@ confidence means "verify before quoting", and the report shows that label.
 
 ## Install
 
-It's an [Agent Skill](https://docs.claude.com/en/docs/claude-code/skills): a folder of
-instructions and scripts that Claude Code (and other skill-aware agents) load on demand.
+**Claude Code (plugin):**
 
-```bash
-git clone https://github.com/iankiku/access-atlas && cd access-atlas
-./install.sh                     # symlinks the skill into ~/.claude/skills (or $CLAUDE_CONFIG_DIR/skills)
-skills/access-atlas/scripts/ensure-deps.sh   # Playwright + axe-core into ~/.cache/access-atlas
+```text
+/plugin marketplace add iankiku/access-atlas
+/plugin install access-atlas@access-atlas
 ```
 
-Then ask: *"Run an accessibility audit on example.gov for a county in Colorado."*
+Then `/access-atlas:audit https://example.gov a county in Colorado`, or just ask for an
+accessibility audit and the skill picks it up.
 
-Scripts run without an agent too (Node 18+, Python 3.9+):
+**Any other agent** (Codex, Cursor, GitHub Copilot, Gemini CLI, Aider, Windsurf, Cline, or your
+own Agent SDK app): the skill is plain files. Instructions any agent can follow live in
+[`skills/access-atlas/AGENTS.md`](skills/access-atlas/AGENTS.md). Tools that read `AGENTS.md` pick
+it up when you work in this repo; otherwise point your agent at that file.
 
 ```bash
-cd skills/access-atlas/scripts
-node scan.mjs https://example.gov --plan                       # size the site first
-node scan.mjs https://example.gov --max-pages 50 --out scan.json
-python3 render.py --jurisdictions us-co --scan scan.json --org "City of Example" --product example.gov --out report.html
+git clone https://github.com/iankiku/access-atlas
+npx skills add iankiku/access-atlas     # or copy skills/access-atlas into your agent's skills folder
+./install.sh [skills-dir]               # or symlink it (default: ~/.claude/skills)
 ```
+
+**No agent at all** (Node 18+, Python 3.9+):
+
+```bash
+skills/access-atlas/scripts/ensure-deps.sh     # once: Playwright + axe-core into ~/.cache/access-atlas
+skills/access-atlas/scripts/audit.sh https://example.gov --jurisdictions us-co --org "City of Example" --scope quick
+```
+
+`audit.sh` sizes the site first. Without `--scope`, on anything over 40 pages it prints the
+options and stops, so you choose. Add `--urls` for the key task pages (pay a bill, apply for a
+permit); those are always scanned.
 
 ## Large sites
 

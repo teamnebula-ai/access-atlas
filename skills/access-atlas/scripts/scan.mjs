@@ -28,6 +28,7 @@ import { createRequire } from 'node:module';
 import { writeFileSync, readFileSync, existsSync, mkdirSync } from 'node:fs';
 import { homedir } from 'node:os';
 import { join, resolve } from 'node:path';
+import { isBlocked } from './robots.mjs';
 
 const args = process.argv.slice(2);
 const opt = (n, d) => { const i = args.indexOf(`--${n}`); return i >= 0 ? args[i + 1] : d; };
@@ -79,7 +80,7 @@ async function robots() {
   }
   return { disallow: dis, sitemaps: maps };
 }
-const blocked = (url, dis) => dis.some((d) => new URL(url).pathname.startsWith(d.replace(/\*.*$/, '')));
+const blocked = isBlocked;
 async function sitemapUrls(seeds, limit = 5000) {
   const out = new Set(), queue = [...(seeds.length ? seeds : [`${origin}/sitemap.xml`])], seen = new Set();
   while (queue.length && out.size < limit && seen.size < 50) {
