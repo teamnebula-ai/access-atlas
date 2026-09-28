@@ -10,10 +10,12 @@ jobs:
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
       - name: Registry is valid
-        run: python3 skills/access-atlas/scripts/jurisdictions.py check
+        run: python3 engine/jurisdictions.py check
       - name: Unit tests
-        run: python3 -m unittest discover -s skills/access-atlas/scripts -p "test_*.py" -v
-      - name: Scanner parses
-        run: node --check skills/access-atlas/scripts/scan.mjs && node skills/access-atlas/scripts/robots.test.mjs
+        run: python3 -m unittest discover -s engine/tests -p "test_*.py" -v
+      - name: Scanner parses, robots matcher
+        run: node --check engine/scan.mjs && node engine/tests/robots.test.mjs
       - name: Shell scripts
-        run: bash -n install.sh && bash -n skills/access-atlas/scripts/ensure-deps.sh
+        run: bash -n install.sh engine/audit.sh engine/ensure-deps.sh
+      - name: No contributor names or machine paths
+        run: "! grep -rnIE '/Users/|/home/[a-z]+/' --exclude-dir=.git --exclude-dir=tests --exclude-dir=registry ."

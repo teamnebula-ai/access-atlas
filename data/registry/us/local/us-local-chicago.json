@@ -1,0 +1,49 @@
+{
+  "id": "us-local-chicago",
+  "name": "City of Chicago - Digital Accessibility (DoIT / Chicago Design System)",
+  "level": "local",
+  "country": "US",
+  "parent": "us-ada-title-ii",
+  "standard": "WCAG 2.0 AA (stated target; Title II requires 2.1 AA by 2027-04-26)",
+  "laws": [],
+  "policy_docs": [
+    {
+      "title": "Chicago Design System - Accessibility statement",
+      "url": "https://design.chicago.gov/accessibility-statement/"
+    },
+    {
+      "title": "Chicago DoIT - Accessibility",
+      "url": "https://www.chicago.gov/city/en/sites/chitech/home/accessibility.html"
+    },
+    {
+      "title": "MOPD - Accessibility for All",
+      "url": "https://www.chicago.gov/city/en/depts/mopd/supp_info/accessibilitycitywide.html"
+    }
+  ],
+  "applies_to": "City of Chicago websites and digital products.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "Title II date as extended."
+    }
+  ],
+  "exceptions": [],
+  "requires": [
+    "WCAG 2.0 AA per the Design System statement; DoIT publishes a digital accessibility guide for app and web content creators"
+  ],
+  "mobile": "not addressed on the page reviewed.",
+  "procurement": "Not stated.",
+  "enforcement": "Federal Title II; Illinois Information Technology Accessibility Act binds state agencies, not the City (unverified).",
+  "office_url": "https://www.chicago.gov/city/en/sites/chitech/home/accessibility.html",
+  "as_of": "2026-09-27",
+  "confidence": "low",
+  "sources": [
+    "https://design.chicago.gov/accessibility-statement/"
+  ],
+  "notes": "The chicago.gov DoIT page returned 403; its content (WCAG 2.0 AA, DoIT working with departments) is from search snippets. The City's stated WCAG 2.0 target lags the federal 2.1 AA requirement - a gap worth flagging to anyone scoping Chicago work.",
+  "covers": [
+    "city"
+  ],
+  "region": "IL",
+  "place": "Chicago"
+}

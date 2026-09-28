@@ -1,0 +1,86 @@
+{
+  "id": "us-ada-title-ii",
+  "name": "ADA Title II web and mobile app accessibility rule (state and local governments)",
+  "level": "federal",
+  "country": "US",
+  "parent": null,
+  "standard": "WCAG 2.1 AA",
+  "laws": [
+    {
+      "cite": "42 U.S.C. 12131-12134 (ADA Title II)",
+      "summary": "Public entities may not exclude or discriminate against people with disabilities in their services, programs or activities.",
+      "url": "https://www.ada.gov/resources/2024-03-08-web-rule/"
+    },
+    {
+      "cite": "28 CFR part 35, subpart H (35.200-35.205), final rule 89 FR 31320 (Apr 24, 2024)",
+      "summary": "State and local government web content and mobile apps must conform to WCAG 2.1 Level AA, with five exceptions and limited flexibility provisions.",
+      "url": "https://www.ada.gov/assets/pdfs/web-rule.pdf"
+    },
+    {
+      "cite": "Interim Final Rule, Extension of Compliance Dates, FR Doc. 2026-07663 (Apr 20, 2026)",
+      "summary": "Pushes both compliance dates back by one year: April 26, 2027 for large entities and April 26, 2028 for small entities and special districts; the technical standard is unchanged.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "ADA.gov - Fact Sheet: New Rule on the Accessibility of Web Content and Mobile Apps (updated for the 2026 IFR)",
+      "url": "https://www.ada.gov/resources/2024-03-08-web-rule/"
+    },
+    {
+      "title": "ADA.gov - First Steps Toward Complying with the Title II Web and Mobile Application Accessibility Rule",
+      "url": "https://www.ada.gov/resources/web-rule-first-steps/"
+    },
+    {
+      "title": "Final rule text (PDF)",
+      "url": "https://www.ada.gov/assets/pdfs/web-rule.pdf"
+    }
+  ],
+  "applies_to": "All Title II public entities: states, counties, cities, towns, special districts, public schools, public colleges and universities, state courts, transit agencies, and web content or mobile apps they provide directly or through contracts, licenses or other arrangements.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "Public entities with total population of 50,000 or more must conform (was 2026-04-24 under the 2024 rule)."
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Public entities with total population under 50,000, and all special district governments, must conform (was 2027-04-26 under the 2024 rule)."
+    }
+  ],
+  "exceptions": [
+    "Archived web content: created before the compliance date, kept only for reference, research or recordkeeping, stored in a clearly marked archive area, and not changed since archiving",
+    "Preexisting conventional electronic documents (PDF, word processing, presentation, spreadsheet files) available before the compliance date, unless currently used to apply for, access or participate in services",
+    "Content posted by third parties without a contractual, licensing or other arrangement with the entity",
+    "Individualized, password-protected or otherwise secured conventional electronic documents about a specific person, property or account",
+    "Preexisting social media posts made before the compliance date"
+  ],
+  "requires": [
+    "Web content and mobile apps conform to WCAG 2.1 Level A and AA (35.200)",
+    "Conforming alternate versions allowed only where technical or legal limitations prevent making content directly accessible (35.202)",
+    "Equivalent facilitation: other designs or methods allowed if they give substantially equivalent or greater accessibility and usability (35.203)",
+    "Fundamental alteration / undue financial and administrative burden defense, with the entity still required to provide access to the maximum extent possible (35.204)",
+    "Measuring compliance: nonconformance with minimal impact on access is not a violation if it does not keep a person with a disability from the same information, interactions, transactions, privacy and independence (35.205)",
+    "Exceptions stop applying to a document or archive once it is requested in accessible form by a person with a disability (ordinary effective-communication duties remain)"
+  ],
+  "mobile": "explicit - the rule covers mobile apps a public entity provides or makes available directly or through contracts, licensing or other arrangements, to WCAG 2.1 AA.",
+  "procurement": "No procurement clause, but content and apps provided through vendors, contractors or licensed platforms count as the entity's own; entities must write WCAG 2.1 AA into contracts and cannot use third-party provenance as an exception.",
+  "enforcement": "DOJ Civil Rights Division investigations and litigation; complaints to DOJ or the relevant federal funding agency (e.g. ED OCR for public schools and universities); private lawsuits under Title II.",
+  "office_url": "https://www.ada.gov/",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://www.ada.gov/resources/2024-03-08-web-rule/",
+    "https://www.jacksonlewis.com/insights/doj-extends-public-entities-compliance-deadline-ada-related-website-accessibility-hhss-may-2026-deadline-still-looms",
+    "https://www.ada.gov/resources/web-guidance/"
+  ],
+  "notes": "CURRENT STATUS: DOJ's Interim Final Rule (published and effective 2026-04-20, comments closed 2026-06-22) extended both compliance dates by one year; ADA.gov's fact sheet now shows April 26, 2027 and April 26, 2028. WCAG 2.1 AA, the five exceptions and the flexibility provisions are unchanged. DOJ cited resource and staffing constraints, slower-than-expected remediation tools (incl. limits of generative AI), and litigation risk, and asked for comments on costs to small governments and whether to do further rulemaking on less costly alternatives for them - so a further substantive change for small entities is possible but none was found as of 2026-09-27. The Federal Register page itself could not be fetched (bot block); dates confirmed on ADA.gov and secondary sources. Section numbers 35.200-35.205 are from knowledge of the 2024 rule text and were not re-opened this session. Related: HHS extended its parallel Section 504 web rule (45 CFR part 84, WCAG 2.1 AA) by IFR announced 2026-05-07 to 2027-05-11 (15+ employees) and 2028-05-10 (under 15) - from search summaries of hhs.gov and the Federal Register, not opened directly (medium confidence).",
+  "covers": [
+    "state-agency",
+    "county",
+    "city",
+    "special-district",
+    "public-school",
+    "public-university",
+    "court"
+  ]
+}

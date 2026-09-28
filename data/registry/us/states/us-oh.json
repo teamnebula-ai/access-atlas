@@ -1,0 +1,56 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-oh",
+  "name": "Ohio",
+  "level": "state",
+  "standard": "WCAG 2.1 AA (Ohio Administrative Policy IT-09 Digital Accessibility, aligned to ADA Title II rule)",
+  "laws": [
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Ohio Administrative Policy IT-09 Digital Accessibility (DAS; reported updated January 2025)",
+      "url": "https://das.ohio.gov/technology-and-strategy/policies/it-09"
+    },
+    {
+      "title": "Ohio Administrative Policy IT-08 Website Standardization",
+      "url": "https://das.ohio.gov/technology-and-strategy/policies/it-08"
+    }
+  ],
+  "applies_to": "State agencies, boards and commissions under the authority of the Governor; public-facing web content, web apps and mobile apps, including contracted/third-party solutions. Local governments not covered by IT-09 (ADA Title II floor applies).",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "IT-09: agency web content and mobile applications must conform to WCAG 2.1 AA."
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II floor: local entities under 50,000 population and special district governments (extended from 2027-04-26)."
+    }
+  ],
+  "requires": [
+    "Agency Digital Accessibility strategy for public-facing web content and mobile apps",
+    "Accessibility statement on each agency homepage and app with feedback options and contact info from the ADA Coordinators Directory",
+    "Use DAS InnovateOhio Platform design/content standards per IT-08",
+    "Contracts for third-party web content and mobile apps must require WCAG 2.1 AA"
+  ],
+  "mobile": "explicit — IT-09 covers agency mobile applications by name.",
+  "procurement": "Agencies must require contracted, in-kind and third-party web content or mobile app solutions to meet the ADA Title II rule and WCAG 2.1 AA.",
+  "enforcement": "Administrative policy enforced through DAS; public reports to accessibility@das.ohio.gov; ADA Title II complaints to DOJ.",
+  "office_url": "https://das.ohio.gov/technology-and-strategy/policies/it-09",
+  "confidence": "low",
+  "sources": [
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "Every das.ohio.gov and ohio.gov page returned HTTP 404 to the fetcher, so IT-09 text was not opened. Details come from repeated search-result extracts of das.ohio.gov and agency accessibility pages; verify against the policy text before relying on it. No Ohio Revised Code section setting a web standard was found.",
+  "covers": [
+    "state-agency"
+  ],
+  "region": "OH"
+}

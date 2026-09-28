@@ -1,0 +1,63 @@
+{
+  "id": "nl",
+  "name": "Netherlands",
+  "level": "national",
+  "country": "NL",
+  "parent": "eu-wad",
+  "standard": "EN 301 549 with WCAG 2.1 A+AA ('Digitoegankelijk' open standard)",
+  "laws": [
+    {
+      "cite": "Besluit digitale toegankelijkheid overheid (BWBR0040936)",
+      "summary": "Government bodies must make websites and apps meet EN 301 549 and publish an accessibility statement.",
+      "url": "https://wetten.overheid.nl/BWBR0040936/"
+    },
+    {
+      "cite": "Wet digitale overheid (Wdo)",
+      "summary": "Legal basis for the Besluit since 2023-07-01 (it replaced the 'Tijdelijk' decree of 2018-07-01).",
+      "url": "https://www.digitaleoverheid.nl/nieuws/wet-digitale-overheid-op-1-juli-2023-van-kracht/"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Wat is verplicht? — Digitoegankelijk",
+      "url": "https://www.digitoegankelijk.nl/wetgeving/wat-is-verplicht"
+    },
+    {
+      "title": "Toegankelijkheidsverklaring invulassistent / register",
+      "url": "https://www.toegankelijkheidsverklaring.nl/"
+    }
+  ],
+  "applies_to": "Public sector bodies (central government, provinces, municipalities, water boards, bodies governed by public law): websites, mobile apps, intranets, extranets and cloud apps.",
+  "deadlines": [
+    {
+      "date": "2018-07-01",
+      "what": "Tijdelijk besluit in force"
+    },
+    {
+      "date": "2023-07-01",
+      "what": "Besluit re-based on the Wdo ('Tijdelijk' dropped)"
+    }
+  ],
+  "exceptions": [
+    "WAD exceptions",
+    "Disproportionate burden (onevenredige last), explained in the statement with an accessible alternative"
+  ],
+  "requires": [
+    "Meet EN 301 549 / WCAG 2.1 AA",
+    "Publish an accessibility statement in the national register (status A–E)",
+    "Keep improving, with an annual update"
+  ],
+  "mobile": "explicit — apps are named in scope.",
+  "procurement": "Digitoegankelijk is on Forum Standaardisatie's 'pas toe of leg uit' (comply-or-explain) list for government procurement.",
+  "enforcement": "Logius checks the statements in the register; the Ministry of BZK reports annually to Parliament and every 3 years to the Commission. Dedicated supervision is described as 'work underway'.",
+  "office_url": "https://www.digitoegankelijk.nl/",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.digitoegankelijk.nl/wetgeving/wat-is-verplicht"
+  ],
+  "notes": "The BWBR id, Wdo re-basing and monitoring details come from search-result summaries of wetten.overheid.nl and digitoegankelijk.nl. The comply-or-explain listing comes from a Forum Standaardisatie search result. No independent enforcement authority with fines was confirmed.",
+  "covers": [
+    "public-sector-body"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "id": "ca-on",
+  "name": "Ontario",
+  "level": "provincial",
+  "country": "CA",
+  "parent": "ca-federal",
+  "standard": "WCAG 2.0 AA (excluding 1.2.4 live captions and 1.2.5 pre-recorded audio description)",
+  "laws": [
+    {
+      "cite": "Accessibility for Ontarians with Disabilities Act, 2005 (AODA)",
+      "summary": "Ontario accessibility standards law with compliance reporting and offences.",
+      "url": "https://www.ontario.ca/laws/statute/05a11"
+    },
+    {
+      "cite": "O. Reg. 191/11 Integrated Accessibility Standards (IASR), s. 14",
+      "summary": "Designated public sector organisations and organisations with 50+ employees must make public websites and web content meet WCAG 2.0 AA.",
+      "url": "https://www.ontario.ca/laws/regulation/110191"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "How to make websites accessible (Ontario)",
+      "url": "https://www.ontario.ca/page/how-make-websites-accessible"
+    }
+  ],
+  "applies_to": "Government of Ontario, designated public sector organisations, and businesses and non-profits with 50 or more employees in Ontario.",
+  "deadlines": [
+    {
+      "date": "2021-01-01",
+      "what": "All public websites and web content posted after 2012-01-01 must meet WCAG 2.0 AA"
+    },
+    {
+      "date": "2026-12-31",
+      "what": "Next accessibility compliance report due (public sector, and businesses with 20+ employees)"
+    }
+  ],
+  "exceptions": [
+    "Live captions (1.2.4) and pre-recorded audio description (1.2.5)",
+    "Content posted before 2012-01-01",
+    "Where meeting the requirement is not practicable (best efforts, then alternatives on request)"
+  ],
+  "requires": [
+    "WCAG 2.0 AA on public websites and web content",
+    "Accessible formats and communication supports on request",
+    "Periodic accessibility compliance reports"
+  ],
+  "mobile": "not addressed — the IASR website requirement covers websites and web content; the Ontario guidance page does not mention native apps.",
+  "procurement": "IASR has general procurement duties for public sector organisations (not opened here).",
+  "enforcement": "Compliance orders and administrative penalties; on conviction, corporations face fines up to $100,000 per day (AODA s.37).",
+  "office_url": "https://www.ontario.ca/page/how-make-websites-accessible",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.ontario.ca/page/how-make-websites-accessible"
+  ],
+  "notes": "The e-Laws pages did not render to automated fetch. The s.37 fine and the 2026-12-31 reporting deadline come from secondary search summaries.",
+  "covers": [
+    "state-agency",
+    "county",
+    "city",
+    "public-school",
+    "public-university",
+    "public-sector-body",
+    "private-business"
+  ]
+}

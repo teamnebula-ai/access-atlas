@@ -1,0 +1,45 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-as",
+  "name": "American Samoa",
+  "level": "territory",
+  "standard": "ADA Title II floor (WCAG 2.1 AA); no territorial standard found",
+  "laws": [
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [],
+  "applies_to": "American Samoa Government and its agencies as a Title II 'State' (42 U.S.C. 12103).",
+  "deadlines": [
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II floor: local entities under 50,000 population and special district governments (extended from 2027-04-26)."
+    },
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II floor: state government and local entities with population 50,000+ must conform to WCAG 2.1 AA (extended from 2026-04-24 by the 2026 DOJ IFR)."
+    }
+  ],
+  "requires": [
+    "Federal floor: WCAG 2.1 AA for web content and mobile apps, subject to 28 CFR 35 exceptions"
+  ],
+  "mobile": "implied — only via the federal rule.",
+  "procurement": "No territorial accessibility procurement rule found.",
+  "enforcement": "ADA Title II complaints to US DOJ; no territorial path found.",
+  "office_url": "https://www.americansamoa.gov/",
+  "confidence": "low",
+  "sources": [
+    "https://www.law.cornell.edu/uscode/text/42/12103",
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "No American Samoa Code or Department of Technology accessibility policy found. The 2020 Census population is believed to be under 50,000 (about 49,700), which would make the 2028-04-26 date apply, but this was not verified; both dates are listed. One agency page (HCBS) claims 'WCAG 3.0 level A', which is not a real conformance target.",
+  "covers": [
+    "state-agency"
+  ],
+  "region": "AS"
+}

@@ -1,0 +1,90 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-va",
+  "name": "Virginia",
+  "level": "state",
+  "standard": "Virginia Information Technology Access Act (Va. Code §§ 2.2-3500 to 2.2-3505, as amended by 2025 c. 571 / HB2541): Section 508, Section 255 and 28 CFR 35.200 (WCAG 2.1 AA). VITA ITRM GOV103 applies to executive branch agencies.",
+  "laws": [
+    {
+      "cite": "Va. Code § 2.2-3501",
+      "summary": "Defines covered entities as state agencies, public school divisions, public higher education institutions and political subdivisions, and incorporates Section 508, Section 255 and 28 CFR 35.200 as the digital accessibility standards.",
+      "url": "https://law.lis.virginia.gov/vacode/title2.2/chapter35/section2.2-3501/"
+    },
+    {
+      "cite": "Va. Code § 2.2-3503",
+      "summary": "Requires an ICT access clause in procurements, vendor certification of conformance, a vendor-paid ACR, and a Vendor Accessibility Roadmap for gaps.",
+      "url": "https://law.lis.virginia.gov/vacode/title2.2/chapter35/section2.2-3503/"
+    },
+    {
+      "cite": "Va. Code § 2.2-3504",
+      "summary": "Nonconforming ICT outside federal exceptions must be reported, and the executive branch reports annually to the General Assembly on it and the cost to fix.",
+      "url": "https://law.lis.virginia.gov/vacode/title2.2/chapter35/section2.2-3504/"
+    },
+    {
+      "cite": "Va. Code § 2.2-3505",
+      "summary": "Lets covered entities designate a digital accessibility coordinator, and requires publishing contact details for reporting barriers and procedures to respond.",
+      "url": "https://law.lis.virginia.gov/vacode/title2.2/chapter35/section2.2-3505/"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "VITA ITRM IT Accessibility Topic Report / Standard GOV103-02 (2017)",
+      "url": "https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/pdf/IT-Accessibility.pdf"
+    },
+    {
+      "title": "VITA ITRM policies and standards",
+      "url": "https://vita.virginia.gov/policy--governance/itrm-policies-standards/?id=6442475125"
+    }
+  ],
+  "applies_to": "State agencies, public institutions of higher education, public school divisions and political subdivisions (local governments). GOV103 applies to executive branch agencies and higher education.",
+  "deadlines": [
+    {
+      "date": "2025-07-01",
+      "what": "HB2541 takes effect; procurement clause, ACR and roadmap apply to contracts negotiated or renegotiated from this date."
+    },
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II floor: state government and local entities with population 50,000+ must conform to WCAG 2.1 AA (extended from 2026-04-24 by the 2026 DOJ IFR)."
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II floor: local entities under 50,000 population and special district governments (extended from 2027-04-26)."
+    }
+  ],
+  "requires": [
+    "ICT access clause in every ICT contract",
+    "Vendor-paid ACR and a Vendor Accessibility Roadmap for any nonconformance",
+    "Publish name, phone, email and address of the digital accessibility coordinator (or other contact) for barrier reports",
+    "Procedures to review and respond to barrier reports",
+    "Report nonconforming ICT; executive branch reports annually to the General Assembly with fiscal impact"
+  ],
+  "mobile": "implied — ICT is defined as 'any website, application' and incorporates 28 CFR 35.200, which covers mobile apps.",
+  "procurement": "Statutory: Secretary of Administration's ICT access clause, vendor conformance certification, ACR and Vendor Accessibility Roadmap (higher-ed may use its own procedures).",
+  "enforcement": "Coordinator-run barrier reporting under § 2.2-3505; annual reporting to the General Assembly; also the Virginians with Disabilities Act and ADA Title II (US DOJ).",
+  "office_url": "https://vita.virginia.gov/policy--governance/itrm-policies-standards/?id=6442475125",
+  "confidence": "medium",
+  "sources": [
+    "https://law.lis.virginia.gov/vacode/title2.2/chapter35/section2.2-3501/",
+    "https://law.lis.virginia.gov/vacode/title2.2/chapter35/section2.2-3503/",
+    "https://law.lis.virginia.gov/vacode/title2.2/chapter35/section2.2-3504/",
+    "https://law.lis.virginia.gov/vacode/title2.2/chapter35/section2.2-3505/",
+    "https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/pdf/IT-Accessibility.pdf",
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "The phase-in dates reported by secondary sources (2026-04-24 / 2027-04-26) mirror the pre-extension federal dates and were not found in the statute text; the federal floor now governs. HB2541's effective date is taken as 2025-07-01, the standard Virginia date, and was not confirmed in the chaptered text. GOV103-02 (2017) was the latest VITA accessibility standard found and may be superseded.",
+  "covers": [
+    "state-agency",
+    "county",
+    "city",
+    "public-school",
+    "public-university"
+  ],
+  "region": "VA"
+}

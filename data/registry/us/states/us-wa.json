@@ -1,0 +1,81 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-wa",
+  "name": "Washington",
+  "level": "state",
+  "standard": "WCAG 2.2 AA from 2026-07-01 (was WCAG 2.1 AA): WaTech policy USER-01 and standard USER-01-01-S, replacing OCIO Policy 188",
+  "laws": [
+    {
+      "cite": "RCW 43.105.054",
+      "summary": "Gives WaTech governance authority to set statewide IT policies and standards, including USER-01.",
+      "url": "https://watech.wa.gov/sites/default/files/2025-01/USER%20-01%20Digital%20Accessibility%20Policy.pdf"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "USER-01 Digital Accessibility Policy (adopted 2024-12-10; replaces Policy 188)",
+      "url": "https://watech.wa.gov/sites/default/files/2025-01/USER%20-01%20Digital%20Accessibility%20Policy.pdf"
+    },
+    {
+      "title": "USER-01-01-S Digital Accessibility Standard (adopted 2024-12-10)",
+      "url": "https://watech.wa.gov/sites/default/files/2025-01/USER-01-01-S%20Digital%20Accessibility%20Standard.pdf"
+    },
+    {
+      "title": "WaTech Accessibility",
+      "url": "https://watech.wa.gov/accessibility"
+    }
+  ],
+  "applies_to": "State agencies as defined in RCW 43.105.020(22), with application to higher education, the legislature and the judiciary per RCW 43.105.052. Covers public-facing sites, apps, documents, media, blogs and social media, plus listed internal content. Local governments via the ADA Title II floor.",
+  "deadlines": [
+    {
+      "date": "2026-07-01",
+      "what": "Minimum standard rises to WCAG 2.2 AA (USER-01-01-S §3)."
+    },
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II floor: state government and local entities with population 50,000+ must conform to WCAG 2.1 AA (extended from 2026-04-24 by the 2026 DOJ IFR)."
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II floor: local entities under 50,000 population and special district governments (extended from 2027-04-26)."
+    },
+    {
+      "date": "2029-07-01",
+      "what": "All content and tools employees or users need for essential duties or program participation must be accessible or have equivalent access (USER-01 §5)."
+    }
+  ],
+  "requires": [
+    "Agency digital accessibility policy defining roles, including the coordinator",
+    "IT accessibility coordinator as key contact and for complaint resolution; publish contact info",
+    "IT Accessibility Plan updated at least annually, prioritized with input from people with lived experience; public version posted",
+    "Documented annual accessibility awareness training for all employees, plus role-based training",
+    "Equivalent access where technology cannot be made compliant",
+    "Processes to ensure new covered technology is accessible"
+  ],
+  "mobile": "explicit — covered technology includes 'applications', and exceptions track the DOJ web/mobile rule.",
+  "procurement": "Accessibility requirements in procurement, scope and budget; validation by human user testing plus a third-party report, VPAT or compliance review; vendor remediation plans with enforceable clauses; right to reduce or terminate for misrepresentation or non-remediation.",
+  "enforcement": "Complaints go to the agency accessibility coordinator; WaTech policy governance; ADA Title II complaints to US DOJ.",
+  "office_url": "https://watech.wa.gov/accessibility",
+  "confidence": "high",
+  "sources": [
+    "https://watech.wa.gov/sites/default/files/2025-01/USER%20-01%20Digital%20Accessibility%20Policy.pdf",
+    "https://watech.wa.gov/sites/default/files/2025-01/USER-01-01-S%20Digital%20Accessibility%20Standard.pdf",
+    "https://watech.wa.gov/policies/digital-accessibility-policy",
+    "https://watech.wa.gov/policies/digital-accessibility-standard",
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "Washington is stricter than the federal floor (WCAG 2.2 AA). Sunset review is 2027-12-10.",
+  "covers": [
+    "state-agency",
+    "court",
+    "public-university"
+  ],
+  "region": "WA"
+}

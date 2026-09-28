@@ -1,0 +1,49 @@
+{
+  "id": "kr",
+  "name": "South Korea",
+  "level": "national",
+  "country": "KR",
+  "parent": null,
+  "standard": "KWCAG 2.2 (Korean Web Content Accessibility Guidelines, KS X OT0003:2022)",
+  "laws": [
+    {
+      "cite": "Act on the Prohibition of Discrimination against Disabled Persons (장애인차별금지법), art. 21",
+      "summary": "Requires accessible information and communication, including websites (article number not verified).",
+      "url": "https://www.law.go.kr/"
+    },
+    {
+      "cite": "Framework Act on Intelligent Informatization (지능정보화 기본법), formerly National Informatization Act",
+      "summary": "Requires web accessibility for public bodies and sets the certification scheme (not verified).",
+      "url": "https://www.law.go.kr/"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "KWCAG 2.2 (unofficial mirror)",
+      "url": "https://a11ykr.github.io/kwcag22/"
+    },
+    {
+      "title": "Web accessibility quality certification (KWACC)",
+      "url": "http://www.kwacc.or.kr/Accessibility/Certification"
+    }
+  ],
+  "applies_to": "Public institutions and, through the anti-discrimination act, a broad set of private operators.",
+  "deadlines": [],
+  "exceptions": [],
+  "requires": [
+    "Meet KWCAG 2.2 (4 principles, 13 guidelines, 24 items)",
+    "Optional or required web accessibility quality certification (document, expert and user review)"
+  ],
+  "mobile": "not addressed — mobile app accessibility guidance exists separately but was not verified here.",
+  "procurement": "Not captured.",
+  "enforcement": "National Human Rights Commission and Ministry of Science and ICT (not verified).",
+  "office_url": "https://www.msit.go.kr/",
+  "as_of": "2026-09-27",
+  "confidence": "low",
+  "sources": [],
+  "notes": "All facts come from search-result summaries; kwacc.or.kr reset the connection. Law article numbers, enforcement bodies and app coverage need primary verification. law.go.kr links are the portal root, not specific statutes.",
+  "covers": [
+    "public-sector-body",
+    "private-business"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "us-ak",
+  "name": "Alaska",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "Section 508 + latest WCAG Level A and AA",
+  "laws": [
+    {
+      "cite": "AS 18.80.255; AS 39.28.055; 6 AAC 65.010 et seq.; Administrative Orders 129 and 262",
+      "summary": "Authorities cited by the Department of Administration's statewide ICT accessibility policy.",
+      "url": "https://doa.alaska.gov/ada/policy/AccessibilityofInfoandCommTechPolicy.pdf"
+    },
+    {
+      "cite": "28 C.F.R. Part 35, Subpart H (ADA Title II web and mobile rule, 2024; dates extended by DOJ interim final rule 2026-04-20)",
+      "summary": "State and local governments must make web content and mobile apps conform to WCAG 2.1 AA.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Accessibility of Information and Communication Technology (DOA policy, 2022-08-04)",
+      "url": "https://doa.alaska.gov/ada/policy/AccessibilityofInfoandCommTechPolicy.pdf"
+    }
+  ],
+  "applies_to": "All State of Alaska executive branch agencies, including public corporations, boards and commissions; covers ICT hosted on state servers, procured by the state, or supported by state funds.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II floor: public entities with population 50,000+ must meet WCAG 2.1 AA (extended from 2026-04-24)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Federal ADA Title II floor: entities under 50,000 and special districts (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Adopt a Section 508-compliant ICT standard",
+    "Train staff and use the latest WCAG A/AA for websites and online apps",
+    "Test all ICT for accessibility monthly with WCAG-current tools",
+    "Provide a way for users to report accessibility issues",
+    "OIT selects and procures accessible ICT and verifies compliance"
+  ],
+  "mobile": "implied — the ICT definition includes 'applications' but mobile apps are not named.",
+  "procurement": "OIT must select and procure accessible ICT; no VPAT/ACR requirement stated.",
+  "enforcement": "State ADA Coordinator may review compliance; users report issues through each agency's reporting mechanism.",
+  "office_url": "https://doa.alaska.gov/ada/",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://doa.alaska.gov/ada/policy/AccessibilityofInfoandCommTechPolicy.pdf",
+    "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+  ],
+  "notes": "No Alaska statute that sets a web standard; the requirement is a DOA policy. 'Latest version' of WCAG is a moving target and the policy allows higher standards such as WCAG 2.2. office_url is inferred from the policy's path and was not opened. Federal floor: ADA Title II rule (WCAG 2.1 AA, web + mobile apps) applies to all state and local government regardless of state law; DOJ's 2026-04-20 interim final rule moved compliance dates to 2027-04-26 / 2028-04-26.",
+  "covers": [
+    "state-agency"
+  ],
+  "region": "AK"
+}

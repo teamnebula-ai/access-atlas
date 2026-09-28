@@ -1,0 +1,68 @@
+{
+  "id": "uk",
+  "name": "United Kingdom",
+  "level": "national",
+  "country": "GB",
+  "parent": null,
+  "standard": "WCAG 2.2 AA (GDS expectation; regulations presume conformity with EN 301 549 / WCAG 2.1 AA)",
+  "laws": [
+    {
+      "cite": "The Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (SI 2018/952)",
+      "summary": "Public sector bodies must make websites and apps accessible, publish an accessibility statement and allow monitoring.",
+      "url": "https://www.legislation.gov.uk/uksi/2018/952/contents"
+    },
+    {
+      "cite": "Equality Act 2010",
+      "summary": "Service providers, including public bodies, must make reasonable adjustments for disabled people; PSBAR failures are treated as a failure to make reasonable adjustments (reg 12).",
+      "url": "https://www.legislation.gov.uk/ukpga/2010/15/contents"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Understanding accessibility requirements for public sector bodies (GOV.UK)",
+      "url": "https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps"
+    }
+  ],
+  "applies_to": "Central and local government, publicly funded bodies and charities, and other public sector bodies; NGOs and broadcasters are excluded unless publicly financed or serving disabled people.",
+  "deadlines": [
+    {
+      "date": "2018-09-23",
+      "what": "Regulations in force"
+    },
+    {
+      "date": "2019-09-23",
+      "what": "Websites published from 2018-09-23; intranets/extranets"
+    },
+    {
+      "date": "2020-09-23",
+      "what": "All websites; pre-recorded audio/video exemption cutoff"
+    },
+    {
+      "date": "2021-06-23",
+      "what": "Mobile apps"
+    }
+  ],
+  "exceptions": [
+    "Same content exemptions as the WAD (pre-2018 office files, pre-2020 pre-recorded media, live media, maps, third-party content, heritage, archives)",
+    "Disproportionate burden (reg 7), which must be assessed and stated"
+  ],
+  "requires": [
+    "Meet WCAG 2.2 AA (GOV.UK guidance updated 2023-10-05)",
+    "Publish and regularly review an accessibility statement (reg 8)",
+    "Provide a contact route and link to the enforcement procedure"
+  ],
+  "mobile": "explicit — the regulations apply to public sector mobile apps, which must publish an accessibility statement.",
+  "procurement": "Not in the regulations; GDS Service Standard and Technology Code of Practice guidance used in procurement was not verified here.",
+  "enforcement": "GDS (Cabinet Office; CDDO has been folded into GDS) monitors samples on behalf of the Secretary of State (reg 10). The EHRC (GB) and Equality Commission for Northern Ireland enforce under the Equality Act (reg 12).",
+  "office_url": "https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps",
+    "https://www.legislation.gov.uk/uksi/2018/952/contents"
+  ],
+  "notes": "The 2018 Regulations retain the WAD structure post-Brexit. WCAG 2.2 AA is GDS guidance: the regulations' presumed-conformity standard was not updated. The GOV.UK page (last updated 2024-09-30) removed its section on when WCAG 2.2 monitoring starts. The CDDO/GDS merger is from general knowledge and was not verified in sources.",
+  "covers": [
+    "public-sector-body"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ie",
+  "name": "Ireland",
+  "level": "national",
+  "country": "IE",
+  "parent": "eu-wad",
+  "standard": "EN 301 549 (NDA guidance equates it to WCAG 2.1 AA)",
+  "laws": [
+    {
+      "cite": "S.I. No. 358/2020 — European Union (Accessibility of Websites and Mobile Applications of Public Sector Bodies) Regulations 2020",
+      "summary": "Transposes the WAD; public sector bodies must meet EN 301 549 and publish accessibility statements.",
+      "url": "https://www.irishstatutebook.ie/eli/2020/si/358/made/en/print"
+    },
+    {
+      "cite": "Disability Act 2005, ss. 25–29, 38",
+      "summary": "Separate accessibility duties on public bodies, with complaints ultimately to the Ombudsman.",
+      "url": "https://www.irishstatutebook.ie/eli/2005/act/14/enacted/en/html"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "NDA — EU Web Accessibility Directive",
+      "url": "https://nda.ie/monitoring/eu-web-accessibility-directive"
+    },
+    {
+      "title": "NDA — Accessibility statements",
+      "url": "https://nda.ie/monitoring/eu-web-accessibility-directive/accessibility-statements"
+    }
+  ],
+  "applies_to": "Irish public sector bodies' websites and mobile apps.",
+  "deadlines": [
+    {
+      "date": "2020-09-23",
+      "what": "S.I. 358/2020 in force"
+    }
+  ],
+  "exceptions": [
+    "WAD exceptions and disproportionate burden"
+  ],
+  "requires": [
+    "Meet EN 301 549",
+    "Detailed accessibility statement, regularly updated",
+    "Feedback mechanism and enforcement-procedure link"
+  ],
+  "mobile": "explicit — the regulations cover mobile applications.",
+  "procurement": "Not captured in sources opened.",
+  "enforcement": "The National Disability Authority is the national monitoring body; it samples sites, issues monitoring notices and reports to the Minister. For unsatisfactory responses, the Regulations point to an enforcement procedure; Disability Act complaints go to the Office of the Ombudsman.",
+  "office_url": "https://nda.ie/monitoring/eu-web-accessibility-directive",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://nda.ie/monitoring/eu-web-accessibility-directive"
+  ],
+  "notes": "irishstatutebook.ie returned 403 to automated fetches, so the regulation numbers were not read directly. The exact enforcement body for S.I. 358/2020 is not confirmed from primary text. The Disability Act URL is the standard eISB path but was not opened.",
+  "covers": [
+    "public-sector-body"
+  ]
+}

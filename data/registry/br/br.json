@@ -1,0 +1,52 @@
+{
+  "id": "br",
+  "name": "Brazil",
+  "level": "national",
+  "country": "BR",
+  "parent": null,
+  "standard": "eMAG (Modelo de Acessibilidade em Governo Eletrônico); ABNT NBR 17225 (web) and ABNT NBR 17060 (mobile) referenced by Governo Digital",
+  "laws": [
+    {
+      "cite": "Lei nº 13.146/2015 (Lei Brasileira de Inclusão), art. 63",
+      "summary": "Websites of government bodies and of companies headquartered or represented in Brazil must be accessible per international best practice.",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
+    },
+    {
+      "cite": "Decreto nº 5.296/2004, art. 47",
+      "summary": "Federal public administration portals must be accessible.",
+      "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/decreto/d5296.htm"
+    },
+    {
+      "cite": "Portaria nº 3/2007 (eMAG); Portaria Interministerial nº 1/2017",
+      "summary": "Institutionalises eMAG and requires detailed compliance reports.",
+      "url": "https://www.gov.br/governodigital/pt-br/legislacao/acessibilidade"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Governo Digital — Acessibilidade",
+      "url": "https://www.gov.br/governodigital/pt-br/legislacao/acessibilidade"
+    }
+  ],
+  "applies_to": "Federal public administration sites (eMAG mandatory); LBI art. 63 extends to companies headquartered or represented in Brazil.",
+  "deadlines": [],
+  "exceptions": [],
+  "requires": [
+    "Follow eMAG for federal e-government sites",
+    "Compliance reports per Portaria Interministerial 1/2017"
+  ],
+  "mobile": "explicit — Governo Digital references ABNT NBR 17060 for mobile apps.",
+  "procurement": "eMAG publishes a guide on accessibility in web development contracting (not opened).",
+  "enforcement": "Administrative oversight; LBI civil remedies. No specific penalty regime verified.",
+  "office_url": "https://www.gov.br/governodigital/pt-br/legislacao/acessibilidade",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.gov.br/governodigital/pt-br/legislacao/acessibilidade"
+  ],
+  "notes": "The Planalto URLs follow the standard pattern and were not opened. The eMAG version (3.1) is not confirmed. Whether NBR 17225 supersedes eMAG for federal sites is not established.",
+  "covers": [
+    "federal-agency",
+    "private-business"
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "us-mi",
+  "name": "Michigan",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "WCAG 2.1 AA",
+  "laws": [
+    {
+      "cite": "Michigan Persons with Disabilities Civil Rights Act, MCL 37.1101 et seq.",
+      "summary": "State disability civil rights law cited by DTMB procedure 1650.02 alongside the ADA as the basis for accessibility obligations.",
+      "url": "https://www.michigan.gov/dtmb/-/media/Project/Websites/dtmb/Law-and-Policies/Admin-Guide/1600/165002-Accessibility-and-Reasonable-Modifications-ADA-Title-II.pdf?rev=7d5ce1f9b7144ecaaa11fc33e8ba8885&hash=09284847F454F5A2A888A744E72E98FA"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web & mobile rule, 2024; dates extended by IFR 2026-07663)",
+      "summary": "Federal floor: state and local government web content and mobile apps must conform to WCAG 2.1 AA; the April 2026 IFR moved compliance to 2027-04-26 (pop. 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "SOM IT Technical Standard 1360.00.11 Digital Standards for Websites and Applications (issued 2025-05-27)",
+      "url": "https://www.michigan.gov/dtmb/-/media/Project/Websites/dtmb/Law-and-Policies/IT-Policy/13600011-SOM-Digital-Standards-for-Websites-and-Applications.pdf"
+    },
+    {
+      "title": "Admin Guide Procedure 1650.02 Accessibility and Reasonable Modifications, ADA Title II (revised 2026-03-23)",
+      "url": "https://www.michigan.gov/dtmb/-/media/Project/Websites/dtmb/Law-and-Policies/Admin-Guide/1600/165002-Accessibility-and-Reasonable-Modifications-ADA-Title-II.pdf?rev=7d5ce1f9b7144ecaaa11fc33e8ba8885&hash=09284847F454F5A2A888A744E72E98FA"
+    },
+    {
+      "title": "SOM Digital Standards",
+      "url": "https://www.michigan.gov/som/digitalstandards"
+    }
+  ],
+  "applies_to": "Executive branch departments, agencies and sub-units: all web and mobile applications incl. COTS, SaaS, vendor-hosted and native mobile apps.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II rule: state government and local governments with population 50,000+ must conform web content and mobile apps to WCAG 2.1 AA (extended from 2026-04-24 by DOJ IFR effective 2026-04-20)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II rule: local governments under 50,000 and special district governments (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "eMichigan standards review (form DTMB-3533) before production; issues fixed before release",
+    "External and new internal sites/apps at WCAG 2.1 AA; existing internal at next significant UI change",
+    "No accessibility overlays",
+    "Footer link to SOM web policies incl. Accessibility policy; departments post an accessibility notice",
+    "Responsive design"
+  ],
+  "mobile": "explicit — standard covers web and mobile apps, naming native mobile apps.",
+  "procurement": "Applies to developed or procured systems (COTS/SaaS) via the pre-production review; no VPAT/ACR requirement verified in the standard.",
+  "enforcement": "Administrative gate: eMichigan review must pass before production; exceptions granted by DTMB. Complaints via ADA Title II grievance under 1650.02 / Department of Civil Rights.",
+  "office_url": "https://www.michigan.gov/som/digitalstandards",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://www.michigan.gov/dtmb/-/media/Project/Websites/dtmb/Law-and-Policies/IT-Policy/13600011-SOM-Digital-Standards-for-Websites-and-Applications.pdf",
+    "https://www.michigan.gov/dtmb/-/media/Project/Websites/dtmb/Law-and-Policies/Admin-Guide/1600/165002-Accessibility-and-Reasonable-Modifications-ADA-Title-II.pdf?rev=7d5ce1f9b7144ecaaa11fc33e8ba8885&hash=09284847F454F5A2A888A744E72E98FA",
+    "https://www.federalregister.gov/api/v1/documents/2026-07663.json?fields[]=title&fields[]=abstract&fields[]=effective_on&fields[]=dates&fields[]=html_url"
+  ],
+  "notes": "No Michigan statute sets a web technical standard; standard derives from DTMB policy 1360.00 and ADA. Full 1650.02 complaint procedure not extracted in detail.",
+  "covers": [
+    "state-agency"
+  ],
+  "region": "MI"
+}

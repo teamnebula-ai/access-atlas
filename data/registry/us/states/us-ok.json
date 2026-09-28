@@ -1,0 +1,66 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-ok",
+  "name": "Oklahoma",
+  "level": "state",
+  "standard": "WCAG 2.1 AA minimum (or the current DOJ standard), plus Section 508; OMES 'Accessibility of Information and Communication Technology Standard' (effective 2025-06-27)",
+  "laws": [
+    {
+      "cite": "62 O.S. § 34.28",
+      "summary": "Requires state agencies to make IT accessible to people with disabilities unless an undue burden applies, and directs OMES to set accessibility standards.",
+      "url": "https://law.justia.com/codes/oklahoma/title-62/section-62-34-28/"
+    },
+    {
+      "cite": "OAC 260:15-1-1 through 260:15-1-9",
+      "summary": "Administrative rules for IT accessibility, including the complaint process and remediation recordkeeping.",
+      "url": "https://aem-prod.oklahoma.gov/content/dam/ok/en/omes/documents/Title260Chapter15.pdf"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Accessibility of Information and Communication Technology Standard (OMES IS, effective 06/27/2025)",
+      "url": "https://www.oklahoma.gov/content/dam/ok/en/omes/documents/accessibility-info-comm-tech.pdf"
+    }
+  ],
+  "applies_to": "State agencies in the executive and judicial branches, including the State Regents for Higher Education and CareerTech; excludes political subdivisions (ADA Title II floor still applies to them). Covers websites, web apps, public documents, software, and paid or free third-party products.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II floor: state government and local entities with population 50,000+ must conform to WCAG 2.1 AA (extended from 2026-04-24 by the 2026 DOJ IFR)."
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II floor: local entities under 50,000 population and special district governments (extended from 2027-04-26)."
+    }
+  ],
+  "requires": [
+    "Designate Accessibility Compliance Representative(s)",
+    "Mandatory accessibility contract clause in every ICT acquisition",
+    "VPAT/ACR from supplier at contract execution (off-the-shelf) or on delivery (custom); the conformance claim is a material contract term",
+    "Verify ICT acquisitions by testing (automated, manual, expert, third-party, or user testing)",
+    "Remediate noncompliant ICT within a reasonable time and keep records of issues and remediation"
+  ],
+  "mobile": "implied — covers websites, web-based applications and digital platforms and adopts the DOJ Title II rule, but does not name mobile apps.",
+  "procurement": "Mandatory WCAG 2.1 AA contract clause; completed VPAT required; accessibility checks built into agency procurement.",
+  "enforcement": "Any individual may file a complaint under OAC 260:15-1-1 et seq.; employees violating the standard face discipline.",
+  "office_url": "https://omes.ok.gov/pages/accessibility",
+  "confidence": "high",
+  "sources": [
+    "https://www.oklahoma.gov/content/dam/ok/en/omes/documents/accessibility-info-comm-tech.pdf",
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "The standard itself was opened and read. The statute and OAC chapter links come from search results and were not opened.",
+  "covers": [
+    "state-agency",
+    "court",
+    "public-university"
+  ],
+  "region": "OK"
+}

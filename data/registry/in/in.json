@@ -1,0 +1,46 @@
+{
+  "id": "in",
+  "name": "India",
+  "level": "national",
+  "country": "IN",
+  "parent": null,
+  "standard": "GIGW 3.0 (Guidelines for Indian Government Websites and Apps, 2023) — WCAG 2.1 AA",
+  "laws": [
+    {
+      "cite": "Rights of Persons with Disabilities Act, 2016, s. 46",
+      "summary": "Service providers, public or private, must provide services per accessibility rules (not opened).",
+      "url": "https://en.wikipedia.org/wiki/Rights_of_Persons_with_Disabilities_Act,_2016"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "GIGW 3.0",
+      "url": "https://guidelines.india.gov.in/gigw3/"
+    },
+    {
+      "title": "New features of GIGW 3.0",
+      "url": "https://guidelines.india.gov.in/new-features-of-gigw-3-0/"
+    }
+  ],
+  "applies_to": "Central and state government websites and apps.",
+  "deadlines": [],
+  "exceptions": [],
+  "requires": [
+    "Conform to WCAG 2.1 AA via GIGW 3.0",
+    "STQC Website Quality Certification (compliance handbook)"
+  ],
+  "mobile": "explicit — GIGW 3.0 covers 'websites and apps' and adds mobile app guidance.",
+  "procurement": "Not captured.",
+  "enforcement": "STQC certification and a compliant-sites list; RPwD Act remedies. No web-specific penalties verified.",
+  "office_url": "https://guidelines.india.gov.in/",
+  "as_of": "2026-09-27",
+  "confidence": "low",
+  "sources": [
+    "https://guidelines.india.gov.in/gigw3/"
+  ],
+  "notes": "The page opened did not state the WCAG level or whether GIGW is mandatory; WCAG 2.1 AA and the 2023 release come from search summaries. The RPwD s.46 link is Wikipedia, not a primary source. Release year 2023; exact date not verified, so no deadline is listed.",
+  "covers": [
+    "federal-agency",
+    "state-agency"
+  ]
+}

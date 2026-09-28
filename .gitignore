@@ -8,3 +8,5 @@ node_modules/
 /plan.json
 *.findings.json
 *.fix-prompt.md
+a11y-audits/
+evals/results/

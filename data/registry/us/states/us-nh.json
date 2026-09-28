@@ -1,0 +1,61 @@
+{
+  "id": "us-nh",
+  "name": "New Hampshire",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "WCAG 2.1 AA",
+  "laws": [
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web & mobile rule, 2024; dates extended by IFR 2026-07663)",
+      "summary": "Federal floor: state and local government web content and mobile apps must conform to WCAG 2.1 AA; the April 2026 IFR moved compliance to 2027-04-26 (pop. 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Information Technology Accessibility Policy (NHS0305 v4, reported effective 2024-06-25)",
+      "url": "https://www.nh.gov/sites/g/files/ehbemt936/files/documents/information-technology-accessibility-policy.pdf"
+    },
+    {
+      "title": "NH.gov Accessibility Policy",
+      "url": "https://www.nh.gov/policies/accessibility-policy"
+    },
+    {
+      "title": "DoIT Digital Accessibility",
+      "url": "https://www.doit.nh.gov/digital-accessibility"
+    }
+  ],
+  "applies_to": "Executive branch agencies' internal and external IT solutions (per search summary of NHS0305); local governments via ADA Title II.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II rule: state government and local governments with population 50,000+ must conform web content and mobile apps to WCAG 2.1 AA (extended from 2026-04-24 by DOJ IFR effective 2026-04-20)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II rule: local governments under 50,000 and special district governments (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Universally accessible agency websites (e-Government 'universal access' principle)",
+    "Archived pre-2026-04-24 documents marked with an archive icon and accommodation contact",
+    "DoIT monthly accessibility scans for web platform sites (ARPA-funded through October 2026)"
+  ],
+  "mobile": "implied — DoIT page notes Title II covers websites, web apps and mobile applications; policy text not reviewed.",
+  "procurement": "Not verified.",
+  "enforcement": "Not verified beyond ADA Title II.",
+  "office_url": "https://www.doit.nh.gov/digital-accessibility",
+  "as_of": "2026-09-27",
+  "confidence": "low",
+  "sources": [
+    "https://web.archive.org/web/2026/https://www.nh.gov/policies/accessibility-policy",
+    "http://web.archive.org/web/20260501095227/https://www.doit.nh.gov/digital-accessibility",
+    "https://www.federalregister.gov/api/v1/documents/2026-07663.json?fields[]=title&fields[]=abstract&fields[]=effective_on&fields[]=dates&fields[]=html_url"
+  ],
+  "notes": "nh.gov and doit.nh.gov returned 403; the policy PDF (NHS0305) could not be opened and has no archive copy, so its doc number, version, effective date and scope are from search summaries only. RSA 21-R:13 (sometimes cited) is about open data formats, not accessibility. No NH accessibility statute found.",
+  "covers": [
+    "state-agency"
+  ],
+  "region": "NH"
+}

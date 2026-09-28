@@ -1,0 +1,67 @@
+{
+  "id": "us-ky",
+  "name": "Kentucky",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "Section 508 and Section 255 (KRS 61.980–61.988); Kentucky.gov states WCAG 2.1 adopted (level not stated)",
+  "laws": [
+    {
+      "cite": "KRS 61.980–61.988 (Accessible Information Technology law, 2000)",
+      "summary": "State and state-assisted bodies must give people with disabilities IT access equivalent to others.",
+      "url": "https://www.katsnet.org/resources/accessibility/attachment/ky-ait-law/"
+    },
+    {
+      "cite": "28 C.F.R. Part 35, Subpart H (ADA Title II web and mobile rule, 2024; dates extended by DOJ interim final rule 2026-04-20)",
+      "summary": "State and local governments must make web content and mobile apps conform to WCAG 2.1 AA.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Kentucky.gov Accessibility Statement",
+      "url": "https://www.kentucky.gov/policies/Pages/accessibility.aspx"
+    }
+  ],
+  "applies_to": "The Commonwealth and state-assisted organizations: colleges, universities, nonprofits, political subdivisions, school systems and others funded by the state.",
+  "deadlines": [
+    {
+      "date": "2000-07-14",
+      "what": "Technology access clause required in all IT contracts entered into after this date"
+    },
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II floor: public entities with population 50,000+ must meet WCAG 2.1 AA (extended from 2026-04-24)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Federal ADA Title II floor: entities under 50,000 and special districts (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Equivalent access to IT for users who are blind, visually impaired, deaf or hard of hearing",
+    "Present information in visual and nonvisual formats",
+    "Bring pre-2000 IT into compliance when it is upgraded or replaced"
+  ],
+  "mobile": "not addressed — the statute predates mobile apps.",
+  "procurement": "The Finance and Administration Cabinet's technology access clause is mandatory in IT contracts; exclusion is allowed only for assistive-technology cost that is an undue burden.",
+  "enforcement": "Any injured person may sue for injunctive relief in Circuit Court within 4 years (KRS 61.988).",
+  "office_url": "https://www.kentucky.gov/policies/Pages/accessibility.aspx",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.katsnet.org/resources/accessibility/attachment/ky-ait-law/",
+    "https://www.kentucky.gov/policies/Pages/accessibility.aspx",
+    "https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx",
+    "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+  ],
+  "notes": "The statute text is from KATS Network's reproduction, not legislature.ky.gov. No Commonwealth Office of Technology accessibility policy was found; a search result naming CIO-060 was wrong, since CIO-060 is the Acceptable Use Policy. Federal floor: ADA Title II rule (WCAG 2.1 AA, web + mobile apps) applies to all state and local government regardless of state law; DOJ's 2026-04-20 interim final rule moved compliance dates to 2027-04-26 / 2028-04-26.",
+  "covers": [
+    "state-agency",
+    "county",
+    "city",
+    "public-school",
+    "public-university"
+  ],
+  "region": "KY"
+}

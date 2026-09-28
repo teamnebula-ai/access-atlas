@@ -1,0 +1,47 @@
+{
+  "country": "US",
+  "parent": "us-federal",
+  "as_of": "2026-09-27",
+  "id": "us-gu",
+  "name": "Guam",
+  "level": "territory",
+  "standard": "ADA Title II floor (WCAG 2.1 AA); the Office of the Governor's site self-declares WCAG 2.1 AA",
+  "laws": [
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web/mobile rule, 2024; compliance dates extended by DOJ IFR effective 2026-04-20)",
+      "summary": "Requires state and local government web content and mobile apps to conform to WCAG 2.1 AA, with compliance dates now 2027-04-26 (population 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Governor of Guam — Accessibility Statement",
+      "url": "https://governor.guam.gov/accessibility-statement/"
+    }
+  ],
+  "applies_to": "Government of Guam and its agencies as a Title II 'State' (42 U.S.C. 12103).",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II floor: state government and local entities with population 50,000+ must conform to WCAG 2.1 AA (extended from 2026-04-24 by the 2026 DOJ IFR)."
+    }
+  ],
+  "requires": [
+    "Federal floor: WCAG 2.1 AA for web content and mobile apps, subject to 28 CFR 35 exceptions"
+  ],
+  "mobile": "implied — only via the federal rule, which covers mobile apps explicitly.",
+  "procurement": "No territorial accessibility procurement rule found.",
+  "enforcement": "Feedback to the Office of the Governor; ADA Title II complaints to US DOJ.",
+  "office_url": "https://governor.guam.gov/accessibility-statement/",
+  "confidence": "low",
+  "sources": [
+    "https://governor.guam.gov/accessibility-statement/",
+    "https://www.law.cornell.edu/uscode/text/42/12103",
+    "https://www.ada.gov/assets/pdfs/2026-ifr.pdf"
+  ],
+  "notes": "No Guam Code Annotated section or OTECH policy on web accessibility was found. Guam's population (about 150,000) puts it in the 2027 tier; the population figure was not re-verified.",
+  "covers": [
+    "state-agency"
+  ],
+  "region": "GU"
+}

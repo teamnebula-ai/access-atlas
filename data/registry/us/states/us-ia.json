@@ -1,0 +1,63 @@
+{
+  "id": "us-ia",
+  "name": "Iowa",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "WCAG 2.0 A and AA (Section 508 governs where federal funding requires it)",
+  "laws": [
+    {
+      "cite": "Iowa Admin. Code 11-25.9 (8A) enforcement; 11-25.6 (8A) waivers",
+      "summary": "Rules used to enforce and waive state IT operational standards.",
+      "url": "https://dom.iowa.gov/website-accessibility-standard"
+    },
+    {
+      "cite": "28 C.F.R. Part 35, Subpart H (ADA Title II web and mobile rule, 2024; dates extended by DOJ interim final rule 2026-04-20)",
+      "summary": "State and local governments must make web content and mobile apps conform to WCAG 2.1 AA.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "Enterprise Operational Standard: Website Accessibility (updated 2012-02-10)",
+      "url": "https://dom.iowa.gov/website-accessibility-standard"
+    },
+    {
+      "title": "Website Policy Notices Standard",
+      "url": "https://dom.iowa.gov/website-policy-notices-standard"
+    }
+  ],
+  "applies_to": "State agencies listed in Iowa Code § 8A.201(5), boards and commissions, and contractors who build or maintain state websites.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II floor: public entities with population 50,000+ must meet WCAG 2.1 AA (extended from 2026-04-24)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Federal ADA Title II floor: entities under 50,000 and special districts (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Meet WCAG 2.0 A/AA for new web content; earlier content is grandfathered",
+    "Post accessibility notices per the Website Policy Notices Standard",
+    "Receiving department audits contractor compliance",
+    "Standard reviewed at least every two years"
+  ],
+  "mobile": "not addressed — the standard covers websites only.",
+  "procurement": "State website RFPs must reference the standard, and awarded contracts must include a written acknowledgment that the product will comply.",
+  "enforcement": "Enforced under Iowa Admin. Code 11-25.9; waiver requests go in writing to the State CIO or DAS Director.",
+  "office_url": "https://dom.iowa.gov/website-accessibility-standard",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://dom.iowa.gov/website-accessibility-standard",
+    "https://ocio.iowa.gov/standard/website-accessibility",
+    "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+  ],
+  "notes": "Both official pages opened show WCAG 2.0 (2012). A search snippet claimed a WCAG 2.1 version and cited a 2017 PDF; neither was verified. The Website Policy Notices Standard was not opened. Federal floor: ADA Title II rule (WCAG 2.1 AA, web + mobile apps) applies to all state and local government regardless of state law; DOJ's 2026-04-20 interim final rule moved compliance dates to 2027-04-26 / 2028-04-26.",
+  "covers": [
+    "state-agency"
+  ],
+  "region": "IA"
+}

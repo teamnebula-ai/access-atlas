@@ -1,0 +1,56 @@
+{
+  "id": "us-local-san-francisco",
+  "name": "City and County of San Francisco - Digital Accessibility and Inclusion Standard (DAIS)",
+  "level": "local",
+  "country": "US",
+  "parent": "us-ada-title-ii",
+  "standard": "WCAG 2.1 AA (policy aims for the latest WCAG AA as a minimum)",
+  "laws": [
+    {
+      "cite": "COIT Digital Accessibility and Inclusion Standard (adopted Nov 18, 2021)",
+      "summary": "Citywide standard requiring accessible, plain-language, translated public-facing digital content from all departments.",
+      "url": "https://www.sf.gov/reports--november-2021--digital-accessibility-and-inclusion-standard"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "SF.gov - Digital Accessibility and Inclusion Standard",
+      "url": "https://www.sf.gov/reports--november-2021--digital-accessibility-and-inclusion-standard"
+    },
+    {
+      "title": "Controller's City Services Auditor memo - City not on track to meet DAIS goals (2024)",
+      "url": "https://www.sf.gov/sites/default/files/2024-09/Digital%20Accessibility%20and%20Inclusion%20Standard%20-%20Goals%20Memorandum%20from%20CSA.pdf"
+    }
+  ],
+  "applies_to": "Public-facing digital content operated by or created for the City, its departments, commissions and officials: websites, mobile apps, digital tools.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "Title II date as extended (SF's page still shows the original 2026-04-24)."
+    }
+  ],
+  "exceptions": [],
+  "requires": [
+    "WCAG 2.1 AA for public-facing content",
+    "Each department names a DAIS Coordinator",
+    "Accessibility statement on department sites, translated into threshold languages",
+    "Plain language for vital information",
+    "Remediate existing content"
+  ],
+  "mobile": "explicit - scope includes mobile applications.",
+  "procurement": "Office of Contract Administration integrates accessibility into bids and contracts; vendors must meet WCAG 2.1 AA.",
+  "enforcement": "COIT governance and Controller audits; federal Title II.",
+  "office_url": "https://www.sf.gov/departments--committee-information-technology-coit--about",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://www.sf.gov/reports--november-2021--digital-accessibility-and-inclusion-standard"
+  ],
+  "notes": "SF page says COIT would update the standard by April 2026 to cover internal content and timelines; no update was found. Controller memo URL from search results, not opened.",
+  "covers": [
+    "city",
+    "county"
+  ],
+  "region": "CA",
+  "place": "San Francisco"
+}

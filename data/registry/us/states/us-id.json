@@ -1,0 +1,63 @@
+{
+  "id": "us-id",
+  "name": "Idaho",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "ADA, Section 508 and 'most current enforceable' WCAG (ITS points to WCAG 2.1 AA)",
+  "laws": [
+    {
+      "cite": "Idaho Code § 67-833",
+      "summary": "Authority for the Idaho Technology Authority's web publishing policy.",
+      "url": "https://ita.idaho.gov/wp-content/uploads/2025/07/p5010.pdf"
+    },
+    {
+      "cite": "28 C.F.R. Part 35, Subpart H (ADA Title II web and mobile rule, 2024; dates extended by DOJ interim final rule 2026-04-20)",
+      "summary": "State and local governments must make web content and mobile apps conform to WCAG 2.1 AA.",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "ITA Policy P5010 Web Publishing",
+      "url": "https://ita.idaho.gov/wp-content/uploads/2025/07/p5010.pdf"
+    },
+    {
+      "title": "ITA Standard S5120 Web Publishing (not opened)",
+      "url": "https://ita.idaho.gov/document-category/ita-standards/5000-web/"
+    }
+  ],
+  "applies_to": "Public-facing web pages under the idaho.gov domain; ITA policies apply to state agencies, including institutions of higher education.",
+  "deadlines": [
+    {
+      "date": "2027-04-26",
+      "what": "Federal ADA Title II floor: public entities with population 50,000+ must meet WCAG 2.1 AA (extended from 2026-04-24)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "Federal ADA Title II floor: entities under 50,000 and special districts (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Comply with ADA, Section 508 and current enforceable WCAG",
+    "Use the State Web Design Template and follow Standard S5120",
+    "Show multi-channel contact information on every page"
+  ],
+  "mobile": "not addressed — P5010 covers websites only.",
+  "procurement": "No accessibility procurement clause found.",
+  "enforcement": "Exemptions go through ITA Policy P1010; no enforcement mechanism stated.",
+  "office_url": "https://its.idaho.gov/digital-accessibility-resources/accessibility-requirements/",
+  "as_of": "2026-09-27",
+  "confidence": "medium",
+  "sources": [
+    "https://ita.idaho.gov/wp-content/uploads/2025/07/p5010.pdf",
+    "https://its.idaho.gov/digital-accessibility-resources/accessibility-requirements/",
+    "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+  ],
+  "notes": "No Idaho accessibility statute found. S5120 and G310 were not opened. The claim that ITA policies cover higher education comes from a search snippet. The ITS page cites the federal 2027/2028 dates. Federal floor: ADA Title II rule (WCAG 2.1 AA, web + mobile apps) applies to all state and local government regardless of state law; DOJ's 2026-04-20 interim final rule moved compliance dates to 2027-04-26 / 2028-04-26.",
+  "covers": [
+    "state-agency",
+    "public-university"
+  ],
+  "region": "ID"
+}

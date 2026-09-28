@@ -1,0 +1,79 @@
+{
+  "id": "us-ny",
+  "name": "New York",
+  "level": "state",
+  "country": "US",
+  "parent": "us-federal",
+  "standard": "WCAG 2.2 AA for state websites (STL §103-d) + WCAG 2.1 AA for web and mobile (ADA Title II)",
+  "laws": [
+    {
+      "cite": "N.Y. State Technology Law §103-d (2023, S3114A)",
+      "summary": "State agencies must, to the extent practicable, conform new or substantially changed websites to the most current WCAG at level AA by 2027-01-01, or post an annual public progress report.",
+      "url": "https://codes.findlaw.com/ny/state-technology-law/stt-sect-103-d/"
+    },
+    {
+      "cite": "N.Y. Executive Law §170-f; STL §103(20)-(21)",
+      "summary": "Extends the WCAG requirement to contractors providing websites under state contracts and directs ITS to issue guidance.",
+      "url": "https://its.ny.gov/system/files/documents/2025/12/nys-p08-005-accessibility-of-information-communication-technology.pdf"
+    },
+    {
+      "cite": "28 CFR Part 35, Subpart H (ADA Title II web & mobile rule, 2024; dates extended by IFR 2026-07663)",
+      "summary": "Federal floor: state and local government web content and mobile apps must conform to WCAG 2.1 AA; the April 2026 IFR moved compliance to 2027-04-26 (pop. 50,000+) and 2028-04-26 (smaller entities and special districts).",
+      "url": "https://www.federalregister.gov/documents/2026/04/20/2026-07663/extension-of-compliance-dates-for-nondiscrimination-on-the-basis-of-disability-accessibility-of-web"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "NYS-P08-005 Accessibility of Information Communication Technology (updated 2024-08-19)",
+      "url": "https://its.ny.gov/system/files/documents/2025/12/nys-p08-005-accessibility-of-information-communication-technology.pdf"
+    }
+  ],
+  "applies_to": "All State Entities (Executive Order 117 'State Government' / STL §101 agencies) and third parties, incl. local governments and vendors, using IT resources they administer; contractor-provided websites.",
+  "deadlines": [
+    {
+      "date": "2026-04-24",
+      "what": "NYS-P08-005 restates original Title II date for WCAG 2.1 AA (policy predates extension)"
+    },
+    {
+      "date": "2027-01-01",
+      "what": "STL §103-d: state websites at WCAG 2.2 AA (most current version), else annual public progress report"
+    },
+    {
+      "date": "2027-04-26",
+      "what": "ADA Title II rule: state government and local governments with population 50,000+ must conform web content and mobile apps to WCAG 2.1 AA (extended from 2026-04-24 by DOJ IFR effective 2026-04-20)"
+    },
+    {
+      "date": "2028-04-26",
+      "what": "ADA Title II rule: local governments under 50,000 and special district governments (extended from 2027-04-26)"
+    }
+  ],
+  "requires": [
+    "Manual testing before production, before fundamental alterations and biennially",
+    "Keep testing reports and an inventory of ICT with compliance status",
+    "'Accessibility' link in home-page footer to a page with accessibility contact information",
+    "Public progress report (actions, obstacles, efforts, timeline) if not compliant by 2027-01-01, updated annually"
+  ],
+  "mobile": "explicit — policy requires web content and mobile applications to meet WCAG 2.1 AA under the DOJ rule.",
+  "procurement": "Mandatory accessibility clause in all ICT solicitations/contracts (STL, Exec. Law 170-f, P08-005) with acceptance testing; VPAT requested for pre-built software with a UI.",
+  "enforcement": "ITS policy compliance mandatory for State Entities; public progress reports under STL §103-d; ADA Title II. Contact accessibilityteam@its.ny.gov.",
+  "office_url": "https://its.ny.gov/system/files/documents/2025/12/nys-p08-005-accessibility-of-information-communication-technology.pdf",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://its.ny.gov/system/files/documents/2025/12/nys-p08-005-accessibility-of-information-communication-technology.pdf",
+    "https://codes.findlaw.com/ny/state-technology-law/stt-sect-103-d/",
+    "https://www.federalregister.gov/api/v1/documents/2026-07663.json?fields[]=title&fields[]=abstract&fields[]=effective_on&fields[]=dates&fields[]=html_url"
+  ],
+  "notes": "its.ny.gov HTML pages return 403 to automated fetches, so the office URL is the policy PDF. The policy's contract clause mis-cites 'Section 130-d' (should be 103-d). STL §103-d text read via FindLaw summary, not the official NY Senate site (403). 'Most current WCAG' is a moving target — WCAG 2.2 today.",
+  "covers": [
+    "state-agency"
+  ],
+  "covers_conditionally": {
+    "entities": [
+      "county",
+      "city"
+    ],
+    "when": "only when using IT resources the state administers"
+  },
+  "region": "NY"
+}

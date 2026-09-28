@@ -1,0 +1,71 @@
+{
+  "id": "de",
+  "name": "Germany",
+  "level": "national",
+  "country": "DE",
+  "parent": "eu-wad",
+  "standard": "EN 301 549 (currently V3.2.1, WCAG 2.1 AA) via BITV 2.0 §3; plus German Sign Language and Easy Language explanations",
+  "laws": [
+    {
+      "cite": "Behindertengleichstellungsgesetz (BGG) §§12–12d",
+      "summary": "Federal public bodies must design websites and mobile apps to be barrier-free.",
+      "url": "https://www.gesetze-im-internet.de/bgg/"
+    },
+    {
+      "cite": "Barrierefreie-Informationstechnik-Verordnung (BITV 2.0), last amended 2023-10-24",
+      "summary": "Sets the technical standard, accessibility statement, feedback and Sign/Easy Language duties for federal bodies.",
+      "url": "https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html"
+    },
+    {
+      "cite": "Barrierefreiheitsstärkungsgesetz (BFSG)",
+      "summary": "Transposes the EAA for private-sector products and services, in force from 2025-06-28.",
+      "url": "https://www.gesetze-im-internet.de/bfsg/"
+    }
+  ],
+  "policy_docs": [
+    {
+      "title": "BFIT-Bund (federal monitoring body)",
+      "url": "https://www.bfit-bund.de/"
+    },
+    {
+      "title": "MLBF — Länder market surveillance for BFSG",
+      "url": "https://www.mlbf-barrierefrei.de/"
+    }
+  ],
+  "applies_to": "BGG/BITV 2.0: federal public bodies. Each of the 16 Länder has its own accessibility law and ordinance for state and municipal bodies. BFSG: private economic operators of EAA products and services.",
+  "deadlines": [
+    {
+      "date": "2019-05-25",
+      "what": "Revised BITV 2.0 (WAD transposition) in force"
+    },
+    {
+      "date": "2025-06-28",
+      "what": "BFSG (EAA) applies"
+    }
+  ],
+  "exceptions": [
+    "WAD content exceptions and disproportionate burden as transposed",
+    "BFSG: microenterprise service providers exempt"
+  ],
+  "requires": [
+    "Meet harmonised standards in the OJ (EN 301 549) or state of the art (BITV §3)",
+    "Homepage explanations in German Sign Language and Leichte Sprache (BITV §4)",
+    "Accessibility statement, machine-readable and reachable from every page, updated annually (BITV §7)",
+    "Electronic feedback contact reachable from every page or app navigation (BITV §7(2))"
+  ],
+  "mobile": "explicit — BGG §12a and BITV 2.0 cover mobile applications; BFSG covers EAA app-based services.",
+  "procurement": "BGG requires barrier-free IT when federal bodies procure new IT; BFSG covers products and services supplied to consumers.",
+  "enforcement": "BFIT-Bund (at Deutsche Rentenversicherung Knappschaft-Bahn-See) monitors federal sites. The Schlichtungsstelle BGG at the Federal Disability Commissioner handles complaints. MLBF (Magdeburg, operating since 2025-09-26) is market surveillance for BFSG and takes consumer reports.",
+  "office_url": "https://www.bfit-bund.de/",
+  "as_of": "2026-09-27",
+  "confidence": "high",
+  "sources": [
+    "https://www.gesetze-im-internet.de/bitv_2_0/BJNR184300011.html",
+    "https://www.mlbf-barrierefrei.de/"
+  ],
+  "notes": "BFIT-Bund, the Schlichtungsstelle and the MLBF start date (2025-09-26) were confirmed via search-result summaries of bundesfachstelle-barrierefreiheit.de and state sites; the MLBF page itself was opened. The BGG and BFSG index URLs are gesetze-im-internet.de roots; a guessed BFSG deep link returned 404.",
+  "covers": [
+    "federal-agency",
+    "private-business"
+  ]
+}
