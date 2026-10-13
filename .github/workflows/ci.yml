@@ -1,7 +1,18 @@
 name: ci
-on: [push, pull_request]
+on:
+  # Only main: a push to a PR branch is already covered by pull_request, and a
+  # second run on push would also defeat the draft skip below.
+  push:
+    branches: [main]
+  pull_request:
+    # ready_for_review is listed so a draft gets its checks the moment it is
+    # marked ready; the default types alone would wait for the next push.
+    types: [opened, synchronize, reopened, ready_for_review]
 jobs:
   test:
+    # Draft PRs skip every job that carries this condition. A skipped job
+    # still counts as passing, and marking the PR ready runs it.
+    if: github.event_name != 'pull_request' || !github.event.pull_request.draft
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
